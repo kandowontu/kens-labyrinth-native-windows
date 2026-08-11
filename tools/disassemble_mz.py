@@ -359,7 +359,7 @@ The entry point is `{header['e_cs']:04X}:{header['e_ip']:04X}` (module
 From the repository root:
 
 ```powershell
-python tools/disassemble_mz.py original/Kens/KEN.EXE disassembly
+python tools/disassemble_mz.py references/official-full/KEN.EXE disassembly
 ```
 """
     path.write_text(text, encoding="utf-8")

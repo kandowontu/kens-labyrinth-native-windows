@@ -26,17 +26,8 @@ def file_sha256(path: Path) -> str:
 
 
 class ExactBinaryTests(unittest.TestCase):
-    def test_preserved_vhd_inventory(self) -> None:
-        inventory = json.loads((ROOT / "original" / "manifest.json").read_text(encoding="utf-8"))
-        self.assertEqual(inventory["vhd"]["bytes"], 33_546_752)
-        self.assertEqual(
-            inventory["vhd"]["sha256"],
-            "72FB5B5856169FF43F426BC362ACBEE0E6A49E8BED74FFBE24489B2D827B5F99",
-        )
-        self.assertEqual(inventory["extraction"]["file_count"], 18)
-
     def test_original_executable_identity(self) -> None:
-        executable = ROOT / "original" / "Kens" / "KEN.EXE"
+        executable = ROOT / "references" / "official-full" / "KEN.EXE"
         self.assertEqual(executable.stat().st_size, 110_775)
         self.assertEqual(file_sha256(executable), EXE_SHA256)
 

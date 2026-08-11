@@ -9,6 +9,7 @@
 /references/tools/
 /references/dependencies/
 /references/klabkit-sdl/
+/original/
 
 # Local runtime state
 /settings.ini

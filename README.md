@@ -49,8 +49,6 @@ fresh install. Use `-setup` to choose other defaults.
 
 | Path | Contents |
 | --- | --- |
-| `original/kens.vhd` | Unmodified source VHD, retained with its SHA-256 |
-| `original/Kens` | Read-only extraction of the installed DOS game |
 | `disassembly` | Exact MZ header, fixups, full flat listing, relocation-aware byte map, and cross-references |
 | `references/original-source` | Ken Silverman's officially released v2.1 C source |
 | `assets/ripped/v2.1` | Lossless decompressed DAT, GIF, KSM, and WAV assets |
@@ -62,7 +60,8 @@ fresh install. Use `-setup` to choose other defaults.
 The exact installed `KEN.EXE` is byte-for-byte identical to the official v2.1
 full-release executable, SHA-256
 `6D33F1502C80CDF2307B86AE77662F478F3C537367631043489442D373BB75C1`.
-The preserved VHD SHA-256 is
+The source VHD was used for local preservation and inventory, but is excluded
+from the public GitHub repository; its recorded SHA-256 is
 `72FB5B5856169FF43F426BC362ACBEE0E6A49E8BED74FFBE24489B2D827B5F99`.
 
 ## Reproduce the analysis
@@ -71,7 +70,7 @@ Install the analysis-only Python packages:
 
 ```powershell
 python -m pip install -r requirements-analysis.txt
-python tools/disassemble_mz.py original/Kens/KEN.EXE disassembly
+python tools/disassemble_mz.py references/official-full/KEN.EXE disassembly
 ```
 
 The disassembler also expects `ndisasm` on `PATH`; `nasm` is used to verify

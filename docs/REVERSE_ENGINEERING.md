@@ -2,13 +2,15 @@
 
 ## Provenance
 
-The input was copied without modification from
-`\\192.168.1.176\sdcard\games\AO486\media\Ken's Labyrinth\kens.vhd` and
-preserved as `original/kens.vhd`.
+The input was copied without modification from the installed VHD at
+`\\192.168.1.176\sdcard\games\AO486\media\Ken's Labyrinth\kens.vhd`.
+The VHD and extracted installation are intentionally excluded from the public
+GitHub repository; the official v2.1 files used by the analysis are preserved
+under `references/official-full`.
 
 | Artifact | Bytes | SHA-256 |
 | --- | ---: | --- |
-| `kens.vhd` | 33,546,752 | `72FB5B5856169FF43F426BC362ACBEE0E6A49E8BED74FFBE24489B2D827B5F99` |
+| source `kens.vhd` (local provenance) | 33,546,752 | `72FB5B5856169FF43F426BC362ACBEE0E6A49E8BED74FFBE24489B2D827B5F99` |
 | installed `KEN.EXE` | 110,775 | `6D33F1502C80CDF2307B86AE77662F478F3C537367631043489442D373BB75C1` |
 | MZ load module | 105,143 | `DD3D9A51E5C595E6B781685AF57F400F0CB4F927BB8B369C7B7118BBE37E35CB` |
 
@@ -85,4 +87,3 @@ Silverman's official Ken's Labyrinth page. It retains the original game logic
 and data formats while providing SDL input/audio/timing, OpenGL or software
 rendering, AdLib emulation, and Windows MIDI. Port-specific x64 changes are
 documented in `PORTING.md`.
-
