@@ -1,0 +1,62 @@
+EDITDATA keys
+First documented on 03/17/2004 by Ken Silverman (http://www.advsys.net/ken)
+
+Keys available to both MAP and ART modes:
+	ESC: quit
+	Arrows/mouse: move cursor
+	Enter: Toggle tile/art mode
+	Space: plot current color at pixel
+	Tab: Lift color under cursor and make it currently selected color
+	PGUP/PGDN: decrement/increment board/tile
+	-/+: decrement/increment tile/color
+	`: Jump to map/tile #
+	\: reset cursor to center
+	R: Rotate board (press an Arrow key)
+	T: Toggle trail status (so your space bar doesn't fall off)
+	1: Select 1st corner (for copy)
+	2: Select 2nd corner and copy rectangle to memory
+	3: Paste from memory
+	4: Flip memory horizontally
+	5: Flip memory vertically
+	6: Flip x&y axes of memory
+	M: Copy entire 64x64 tile to memory
+	P: Paste entire 64x64 tile from memory
+	J: Randomly change all pixels with same color under cursor to current color
+	C: Change all pixels with same color under cursor to current color
+	F: Unsafe floodfill (careful!) Uses current color as boundary
+	S: Search for certain color and make it flash (press any key to exit)
+	A: Extract a specific map/tile from another (renamed) WALLS.DAT/BOARDS.DAT
+		(this is how Andy and I combined our maps/tiles)
+
+Keys in MAP mode only:
+	?: display tile frequency distribution of current map
+	*: add items on current map to internal list and display distribution
+	_: clear items on internal list
+	I: Toggle invisible attribute
+	B: Toggle blocking attribute
+	W: Toggle whether door starts open or closed
+	|: I have no clue what this does..
+
+Keys in ART mode only:
+	Shift+Arrows: Change palette color index
+	Backspace: set to transparent color
+	|: Display cursor coordinates
+	*,/: Double or halve data in memory (see 1-6 keys)
+	,/.: Brighten/darken rectangle (specify 1st corner using "1")
+	K: Toggle wall kind
+		Cube:standard solid wall
+		Plane:standard sprite (ex:monster, a Face sprite in Build)
+		Direc:Directonal sprite (doors, etc..., like a wall sprite in Build)
+	I: Toggle "Inside" attribute (can be overridden in MAP)
+	B: Toggle "Blast" attribute
+	F1-F8: Various hard-coded graphical effects
+	L: draw antialiased line (use "1" to select 1st point)
+	E: draw antialiased circle (use "1" to select center)
+	~: Generate frequency report of tile used on each map
+	U: Update wall from BMP file (select top-left corner using Arrows/mouse)
+	Alt+E: Re-grab from previous BMP file select with 'U'.
+	V: Show walls using 1024x768 mode, but only works on TSENG-ET4000 chipset
+	G: Some silly effect with a grid
+	'[]{}?;: Various filter effects to enhance (or ruin) your tile
+	0: I have no clue what this does..
+	7: I have no clue what this does..

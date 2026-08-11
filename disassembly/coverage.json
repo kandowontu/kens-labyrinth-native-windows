@@ -1,0 +1,18 @@
+{
+  "executable_sha256": "6D33F1502C80CDF2307B86AE77662F478F3C537367631043489442D373BB75C1",
+  "load_module_sha256": "DD3D9A51E5C595E6B781685AF57F400F0CB4F927BB8B369C7B7118BBE37E35CB",
+  "load_module_bytes": 105143,
+  "byte_map_bytes_emitted": 105143,
+  "byte_map_coverage_percent": 100,
+  "byte_map_roundtrip_verified": true,
+  "classified_code_bytes": 96158,
+  "classified_code_percent": 91.45,
+  "unclassified_or_data_bytes": 8985,
+  "logical_instructions": 34786,
+  "selected_physical_instructions": 34785,
+  "overlap_conflicts": 1,
+  "discovered_entry_points": 4061,
+  "control_flow_edges": 7017,
+  "fixed_far_targets": 1319,
+  "mz_relocations": 1349
+}

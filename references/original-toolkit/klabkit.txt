@@ -1,0 +1,139 @@
+Ken's Labyrinth Developer's Toolkit
+Ken's official website: http://advsys.net/ken
+
+First, a brief history lesson:
+01/01/1993: Ken's Labyrinth v1.0 Shareware released. I announced the
+				"Developer's Toolkit" in the included README.TXT.
+03/17/2004: Developer's toolkit first release.
+04/17/2005: Wrote KZP2DAT.BAS and removed duplicate utilities.
+
+Many people have asked me what happened to the "Developer's Toolkit". I
+mentioned it in the README.TXT of the Advanced Systems version of Ken's
+Labyrinth. Well, I never released it back in the day because Epic advised me
+not to. I'm not sure what their reasoning was, but at the time, I was happy to
+not write the necessary documentation for it. It's a shame that things
+happened this way, because Ken's Labyrinth could have been known as one of the
+first 3D games to offer its tools to the public.
+
+It seems that Id Software earned this title with their release of "Doom". They
+didn't exactly give away their game tools, but unlike me, they decided not to
+waste time writing file compression or encryption of any kind. This made it a
+lot easier for hackers to write their own editors and modify the game files.
+I hear that Id did this on purpose. Well, it certainly didn't hurt sales.
+
+In Ken's Labyrinth, I did the exact opposite of using an open architecture. I
+used compression and encryption whenever possible. I used LZW compression for
+the artwork and maps, simple XOR-style encryption for the help text, and I
+even modified bytes in the headers of GIF files to prevent people from hacking
+them. In retrospect, this was a complete waste of time, and it probably hurt
+sales too.
+
+So, here I am, more than 11 years after first announcing the "Developer's
+Toolkit", and somebody is asking about it again (you know who you are!). So I
+thought to myself... gee, maybe it's time to release it! :) So I threw
+together a bunch of files from my existing Ken's Labyrinth directory. I tried
+to organize the files the same way that I would have done it in 1993. I
+included some bonus files for those of you who happen to have a copy of
+Microsoft QuickBasic 4.5.
+
+-Ken S.
+
+------------------------------------------
+
+A description of the included files:
+
+KZP2DAT.BAS/KZP2DAT.EXE: A brand-new decompression utility (04/17/2005) I
+	wrote for all KZP formats. Use this to extract any of the KZP files to
+	their original format. You must run this first before using EDITDATA.
+	(See the note below)
+
+PREPDATA.BAT: Run this to extract all KZP files to their uncompressed or
+	unencrypted formats.
+
+EDITDATA.BAS/EDITDATA.EXE: Ken's Labyrinth art (WALLS.DAT) and map
+	(BOARDS.DAT) editor. If you plan to edit the source code, you will need
+	Microsoft QuickBasic 4.5 (or later) and load the QuickLibrary (QB.QLB) for
+	mouse support (Example: "qb /l qb.qlb editdata.bas"). It will not run in
+	the stipped-down version called QBasic. The most important keys inside
+	EDITDATA.BAS are:
+		* PGUP/PGDN to change map or art tile.
+		* Enter to switch between map (BOARDS.DAT) and art (WALLS.DAT) mode.
+	See EDITDATA.TXT for a more detailed description of all the controls.
+
+	NOTE! Before using EDITDATA (BAS or EXE), you must extract WALLS.KZP and
+	BOARDS.KZP to WALLS.DAT and BOARDS.DAT (respectively). I did not include
+	these files to save archive space. How to extract these files:
+		1. Copy *.KZP to the current directory.
+		2. Run "KZP2DAT WALLS" and "KZP2DAT BOARDS", or if you're lazy, you can
+			run PREPDATA.BAT to extract everything.
+
+WALLS.DAT/BOARDS.DAT: The uncompressed versions of WALLS.KZP and BOARDS.KZP.
+	EDITDATA.BAS works with these files directly.
+STORY.DAT: The unencrypted version of STORY.KZP. I forget what all the weird
+	characters do. I imagine some of them specify text color and others specify
+	alignment.
+
+COMPRESS.C/COMPRESS.EXE: The Ken's Labyrinth game executable only supports the
+	loading of compressed or encrypted versions of files. You can use my
+	COMPRESS utility to convert the original files to their compressed or
+	encrypted counterparts (which have the 'KZP' extension). You can specify
+	one of these 5 options at the command line:
+
+	"compress walls"  WALLS.DAT  -> WALLS.KZP
+	"compress boards" BOARDS.DAT -> BOARDS.KZP
+	"compress story"  STORY.DAT  -> STORY.KZP
+	"compress ksm"    *.KSM      -> SONGS.KZP
+		(I probably used an old Norton utility called Directory Sort to control
+		 the KSM file order)
+	"compress wav"    *.WAV      -> SOUNDS.KZP
+		(See top of COMPRESS.C for the list of filenames)
+
+1.GIF/2.GIF/3.GIF: These are the introduction screen pictures which are stored
+	inside LAB3D.KZP (included with the Epic versions). Tim Sweeney (President
+	of Epic, and now known for his work on Unreal) drew 1.GIF (the Epic logo)
+	and 2.GIF (the Ken's Labyrinth logo) I'm not sure who drew 3.GIF, but it
+	was probably by a professional art studio that Epic hired. I have some
+	evidence that it might be "Depew Studios"?. Unfortunately, the sizes of
+	these GIF files are hard-coded in my Ken's Labyrinth source code, so you
+	won't be able to modify the intro screen pictures without also modifying my
+	source code. I don't have a specific utility to generate LAB3D.KZP from
+	these 3 GIFs, however if you're really interested, here's how to do it:
+
+	Step 1: Change the 1st 6 bytes of all 3 GIF files from "GIF87a" to "LAB3D!"
+		You can use this simple QBasic program to do that:
+
+			z$ = "LAB3D!"
+			OPEN "1.gif" FOR BINARY AS #1: PUT #1, , z$: CLOSE #1
+			OPEN "2.gif" FOR BINARY AS #1: PUT #1, , z$: CLOSE #1
+			OPEN "3.gif" FOR BINARY AS #1: PUT #1, , z$: CLOSE #1
+
+	Step 2: At the command prompt, type: "copy 1.gif lab3d.kzp"
+	Step 3: At the command prompt, type: "type 2.gif >> lab3d.kzp"
+	Step 4: At the command prompt, type: "type 3.gif >> lab3d.kzp"
+
+
+README.C: Source code to my smooth-scrolling text reader that was included
+	with the Advanced Systems versions of Ken's Labyrinth.
+
+SETUP.C: Source code to the Ken's Labyrinth setup program.
+
+*.WAV: Please be aware that the original DOS game only supports 8-bit mono
+	sounds, and they should be under 32K.
+
+READSAVE.BAS: A bonus program! This programs lets you view saved game files.
+	Make sure to modify the filename at the top of the program to an existing
+	save game file before running.
+
+LOOKHISC.BAS: View the high scores from all 30 levels - could be interesting
+	if you never deleted your old Ken's Labyrinth game directory :)
+
+------------------------------------------
+
+I like to keep track of the original filedates for historical reasons.
+Unfortunately, a few of my old programs were saved in QUICKBasic-native
+format. This is fine for QuickBasic 4.5+ users, but it's no good for people
+who only have QBasic (the stripped-down version that comes with DOS&Windows).
+Here's the original file info before I touched them today:
+
+	03/28/1993 01:01 PM  READSAVE.BAS
+	06/22/1993 02:43 PM  LOOKHISC.BAS

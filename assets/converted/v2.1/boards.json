@@ -1,0 +1,422 @@
+[
+  {
+    "board_index": 0,
+    "board_number": 1,
+    "episode": 1,
+    "level_in_episode": 1,
+    "player_start": {
+      "x": 24,
+      "y": 38,
+      "direction": "up"
+    },
+    "image": "boards/board_01.png",
+    "data": "boards/board_01.json",
+    "raw_sha256": "703C00BF4CC585B3FB1F6D71A851C6F2E386D15CC6B76233A06BAB285F1F836C"
+  },
+  {
+    "board_index": 1,
+    "board_number": 2,
+    "episode": 1,
+    "level_in_episode": 2,
+    "player_start": {
+      "x": 61,
+      "y": 59,
+      "direction": "left"
+    },
+    "image": "boards/board_02.png",
+    "data": "boards/board_02.json",
+    "raw_sha256": "26FAC1F430B7333DF60D3A8CC9261C6000EEB90BA88017314735486714F9EC3D"
+  },
+  {
+    "board_index": 2,
+    "board_number": 3,
+    "episode": 1,
+    "level_in_episode": 3,
+    "player_start": {
+      "x": 30,
+      "y": 36,
+      "direction": "right"
+    },
+    "image": "boards/board_03.png",
+    "data": "boards/board_03.json",
+    "raw_sha256": "AD4D6214C77641B353469A2F0213374139E91BC3FCF7DA76EBC86D428EA7A034"
+  },
+  {
+    "board_index": 3,
+    "board_number": 4,
+    "episode": 1,
+    "level_in_episode": 4,
+    "player_start": {
+      "x": 50,
+      "y": 60,
+      "direction": "up"
+    },
+    "image": "boards/board_04.png",
+    "data": "boards/board_04.json",
+    "raw_sha256": "D0CB9FA256FEF5B1BA8ACB35BF6810202959FD76853B86B4D1215BEC4825635F"
+  },
+  {
+    "board_index": 4,
+    "board_number": 5,
+    "episode": 1,
+    "level_in_episode": 5,
+    "player_start": {
+      "x": 40,
+      "y": 57,
+      "direction": "up"
+    },
+    "image": "boards/board_05.png",
+    "data": "boards/board_05.json",
+    "raw_sha256": "E4B0CFA35609D599AF0769361C881A9AF17D0D7E9516A5FE9B95BA3C0F222420"
+  },
+  {
+    "board_index": 5,
+    "board_number": 6,
+    "episode": 1,
+    "level_in_episode": 6,
+    "player_start": {
+      "x": 32,
+      "y": 31,
+      "direction": "right"
+    },
+    "image": "boards/board_06.png",
+    "data": "boards/board_06.json",
+    "raw_sha256": "8BCD116BDC19363A1EDBB8A412AC54B97DAACAA19F4B7A2572B941551CAA7A24"
+  },
+  {
+    "board_index": 6,
+    "board_number": 7,
+    "episode": 1,
+    "level_in_episode": 7,
+    "player_start": {
+      "x": 17,
+      "y": 50,
+      "direction": "up"
+    },
+    "image": "boards/board_07.png",
+    "data": "boards/board_07.json",
+    "raw_sha256": "6BAD5622525EC282780FBF7F0369A5C5F7BD1C1D8633B5CF4D2A855031CF8FAB"
+  },
+  {
+    "board_index": 7,
+    "board_number": 8,
+    "episode": 1,
+    "level_in_episode": 8,
+    "player_start": {
+      "x": 51,
+      "y": 37,
+      "direction": "left"
+    },
+    "image": "boards/board_08.png",
+    "data": "boards/board_08.json",
+    "raw_sha256": "2C5872E113807E8613D988D072729E95B11A598874A4BC01446257360BFA6F4D"
+  },
+  {
+    "board_index": 8,
+    "board_number": 9,
+    "episode": 1,
+    "level_in_episode": 9,
+    "player_start": {
+      "x": 45,
+      "y": 42,
+      "direction": "down"
+    },
+    "image": "boards/board_09.png",
+    "data": "boards/board_09.json",
+    "raw_sha256": "D0D2A988D86273562D68B560EF8ED071D53EC6BA15E0FC644196F219600801E5"
+  },
+  {
+    "board_index": 9,
+    "board_number": 10,
+    "episode": 1,
+    "level_in_episode": 10,
+    "player_start": {
+      "x": 32,
+      "y": 53,
+      "direction": "up"
+    },
+    "image": "boards/board_10.png",
+    "data": "boards/board_10.json",
+    "raw_sha256": "BE022106729D73E011BB1EC4F2B9A32686605032ADB71237E9FADF22DE677728"
+  },
+  {
+    "board_index": 10,
+    "board_number": 11,
+    "episode": 2,
+    "level_in_episode": 1,
+    "player_start": {
+      "x": 31,
+      "y": 61,
+      "direction": "up"
+    },
+    "image": "boards/board_11.png",
+    "data": "boards/board_11.json",
+    "raw_sha256": "0E71549E1F71DB571630DC4F39E41A3F42E5B1389F16094C7BB198A378496FF3"
+  },
+  {
+    "board_index": 11,
+    "board_number": 12,
+    "episode": 2,
+    "level_in_episode": 2,
+    "player_start": {
+      "x": 46,
+      "y": 57,
+      "direction": "left"
+    },
+    "image": "boards/board_12.png",
+    "data": "boards/board_12.json",
+    "raw_sha256": "627C9A56CEFD10868518A75DD3E0CD2A7F0E99BBA049CFFDAC62292804106460"
+  },
+  {
+    "board_index": 12,
+    "board_number": 13,
+    "episode": 2,
+    "level_in_episode": 3,
+    "player_start": {
+      "x": 31,
+      "y": 51,
+      "direction": "up"
+    },
+    "image": "boards/board_13.png",
+    "data": "boards/board_13.json",
+    "raw_sha256": "B75A96A48573BD6E59F59C995E4513EAC8CF829EEB289D87B932FB41B9966A9C"
+  },
+  {
+    "board_index": 13,
+    "board_number": 14,
+    "episode": 2,
+    "level_in_episode": 4,
+    "player_start": {
+      "x": 6,
+      "y": 29,
+      "direction": "right"
+    },
+    "image": "boards/board_14.png",
+    "data": "boards/board_14.json",
+    "raw_sha256": "562A90DB02D9E7DAFF5B6FDDC23D3F7531B88AA3F4645D8FC672ED28A1B9AFD4"
+  },
+  {
+    "board_index": 14,
+    "board_number": 15,
+    "episode": 2,
+    "level_in_episode": 5,
+    "player_start": {
+      "x": 32,
+      "y": 32,
+      "direction": "down"
+    },
+    "image": "boards/board_15.png",
+    "data": "boards/board_15.json",
+    "raw_sha256": "67CC4042711B2E241C05731D9DC6E55C55DCC012CF88E485463B25BADFB8E4EB"
+  },
+  {
+    "board_index": 15,
+    "board_number": 16,
+    "episode": 2,
+    "level_in_episode": 6,
+    "player_start": {
+      "x": 31,
+      "y": 31,
+      "direction": "up"
+    },
+    "image": "boards/board_16.png",
+    "data": "boards/board_16.json",
+    "raw_sha256": "5274A7C351E0857A66989658DC440FC051BEE8D90159D10E9F45CA94A5F59B2C"
+  },
+  {
+    "board_index": 16,
+    "board_number": 17,
+    "episode": 2,
+    "level_in_episode": 7,
+    "player_start": {
+      "x": 31,
+      "y": 58,
+      "direction": "up"
+    },
+    "image": "boards/board_17.png",
+    "data": "boards/board_17.json",
+    "raw_sha256": "337A62E4B12FD43552FAE81467B4A22980D1EBB8C9D9083E45CAB333C7CEA075"
+  },
+  {
+    "board_index": 17,
+    "board_number": 18,
+    "episode": 2,
+    "level_in_episode": 8,
+    "player_start": {
+      "x": 40,
+      "y": 19,
+      "direction": "down"
+    },
+    "image": "boards/board_18.png",
+    "data": "boards/board_18.json",
+    "raw_sha256": "0EEEAAAD040767AD97755A1F871F5703AD245D8450C96EC34A0B2D85B57FF06C"
+  },
+  {
+    "board_index": 18,
+    "board_number": 19,
+    "episode": 2,
+    "level_in_episode": 9,
+    "player_start": {
+      "x": 31,
+      "y": 31,
+      "direction": "up"
+    },
+    "image": "boards/board_19.png",
+    "data": "boards/board_19.json",
+    "raw_sha256": "DC8A84C983EAAF32B52C7BE4E5C2BF06E062ED53428ADEBDA42B4C6B80A88F8C"
+  },
+  {
+    "board_index": 19,
+    "board_number": 20,
+    "episode": 2,
+    "level_in_episode": 10,
+    "player_start": {
+      "x": 31,
+      "y": 31,
+      "direction": "up"
+    },
+    "image": "boards/board_20.png",
+    "data": "boards/board_20.json",
+    "raw_sha256": "363CCE7FFAD1E6FB90CA77C5D5E32340EFD79849A086AF0F9E84AF4422BA0112"
+  },
+  {
+    "board_index": 20,
+    "board_number": 21,
+    "episode": 3,
+    "level_in_episode": 1,
+    "player_start": {
+      "x": 50,
+      "y": 54,
+      "direction": "right"
+    },
+    "image": "boards/board_21.png",
+    "data": "boards/board_21.json",
+    "raw_sha256": "864DD135C7B77AF044098AE059E4DA95E9BC2ED61EEE067A425D7726D02E4592"
+  },
+  {
+    "board_index": 21,
+    "board_number": 22,
+    "episode": 3,
+    "level_in_episode": 2,
+    "player_start": {
+      "x": 22,
+      "y": 51,
+      "direction": "up"
+    },
+    "image": "boards/board_22.png",
+    "data": "boards/board_22.json",
+    "raw_sha256": "CECEB5CD7B28F0D0276EA5EFDCA87A307C3CA0BFB73D1EB6FD0518CC427C3BBF"
+  },
+  {
+    "board_index": 22,
+    "board_number": 23,
+    "episode": 3,
+    "level_in_episode": 3,
+    "player_start": {
+      "x": 32,
+      "y": 29,
+      "direction": "up"
+    },
+    "image": "boards/board_23.png",
+    "data": "boards/board_23.json",
+    "raw_sha256": "CC8032591337F6B3EFF773D22DC506DED5A0DB910E38AF18468B9DD81403F93B"
+  },
+  {
+    "board_index": 23,
+    "board_number": 24,
+    "episode": 3,
+    "level_in_episode": 4,
+    "player_start": {
+      "x": 35,
+      "y": 35,
+      "direction": "up"
+    },
+    "image": "boards/board_24.png",
+    "data": "boards/board_24.json",
+    "raw_sha256": "E5CF6FC1F51E68E9E5A646C130050F0341461074480427C1A101859FA017FB1E"
+  },
+  {
+    "board_index": 24,
+    "board_number": 25,
+    "episode": 3,
+    "level_in_episode": 5,
+    "player_start": {
+      "x": 31,
+      "y": 32,
+      "direction": "down"
+    },
+    "image": "boards/board_25.png",
+    "data": "boards/board_25.json",
+    "raw_sha256": "FD98AA1DC7B8316B014BF2F533403A94E6209C5D4FA8BDF932857A117F2F4B11"
+  },
+  {
+    "board_index": 25,
+    "board_number": 26,
+    "episode": 3,
+    "level_in_episode": 6,
+    "player_start": {
+      "x": 44,
+      "y": 42,
+      "direction": "up"
+    },
+    "image": "boards/board_26.png",
+    "data": "boards/board_26.json",
+    "raw_sha256": "D94A3ECE84D8C3C5C7F5000622ED56B71B43C76421E3078727FE392E7123C0F7"
+  },
+  {
+    "board_index": 26,
+    "board_number": 27,
+    "episode": 3,
+    "level_in_episode": 7,
+    "player_start": {
+      "x": 32,
+      "y": 32,
+      "direction": "down"
+    },
+    "image": "boards/board_27.png",
+    "data": "boards/board_27.json",
+    "raw_sha256": "0FEBE0EDC9B5DF3602664B0A8B3826EAF1981321B5EFC860FA13536F916B5A2D"
+  },
+  {
+    "board_index": 27,
+    "board_number": 28,
+    "episode": 3,
+    "level_in_episode": 8,
+    "player_start": {
+      "x": 34,
+      "y": 31,
+      "direction": "down"
+    },
+    "image": "boards/board_28.png",
+    "data": "boards/board_28.json",
+    "raw_sha256": "3EFF434EC09253428F8D7E74EBCE9C8A1F60391DB53EFFD7B931F2FE67F006C1"
+  },
+  {
+    "board_index": 28,
+    "board_number": 29,
+    "episode": 3,
+    "level_in_episode": 9,
+    "player_start": {
+      "x": 3,
+      "y": 60,
+      "direction": "down"
+    },
+    "image": "boards/board_29.png",
+    "data": "boards/board_29.json",
+    "raw_sha256": "D546EADA599F6A6BF6CB936173C29E9BD77950EEE9D05FD5A4C086CF820CF013"
+  },
+  {
+    "board_index": 29,
+    "board_number": 30,
+    "episode": 3,
+    "level_in_episode": 10,
+    "player_start": {
+      "x": 11,
+      "y": 45,
+      "direction": "up"
+    },
+    "image": "boards/board_30.png",
+    "data": "boards/board_30.json",
+    "raw_sha256": "D766F64FA34DCA517DDF7102F6793A174C03350F9A20565342451BA2BD77E2F3"
+  }
+]

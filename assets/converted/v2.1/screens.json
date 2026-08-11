@@ -1,0 +1,23 @@
+[
+  {
+    "gif_file": "gif/LAB3D-001.gif",
+    "png_file": "screens/LAB3D-001.png",
+    "width": 320,
+    "height": 200,
+    "gif_sha256": "22D9E51F4CB49CF4C4DD83F8B6D8146F704D3CAFE05E227C5772800B64477160"
+  },
+  {
+    "gif_file": "gif/LAB3D-002.gif",
+    "png_file": "screens/LAB3D-002.png",
+    "width": 320,
+    "height": 200,
+    "gif_sha256": "DE425705105DB3ABFAF9B402260AFAE43BFA8C892FF44F512E9B67821B6AAE65"
+  },
+  {
+    "gif_file": "gif/LAB3D-003.gif",
+    "png_file": "screens/LAB3D-003.png",
+    "width": 320,
+    "height": 480,
+    "gif_sha256": "0C7926902BE1FE8542A49F31E82C39392957FA2C137AF28E4D0504AC48F8492E"
+  }
+]

@@ -1,0 +1,26 @@
+# Generated builds and release archives
+/build/
+/dist/
+/.vs/
+/out/
+
+# Downloaded analysis toolchains and dependency mirrors
+/references/downloads/
+/references/tools/
+/references/dependencies/
+/references/klabkit-sdl/
+
+# Local runtime state
+/settings.ini
+/captur*.bmp
+/savgame*.dat
+/stdout.txt
+/stderr.txt
+
+# Python and editor state
+**/__pycache__/
+*.py[cod]
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb

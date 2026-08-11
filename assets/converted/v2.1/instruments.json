@@ -1,0 +1,4610 @@
+[
+  {
+    "index": 0,
+    "name": "Piano",
+    "opl2_register_data": [
+      1,
+      1,
+      146,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 1,
+    "name": "Harpsichord",
+    "opl2_register_data": [
+      32,
+      2,
+      242,
+      51,
+      0,
+      48,
+      14,
+      194,
+      16,
+      0,
+      10
+    ],
+    "gm_program": 6
+  },
+  {
+    "index": 2,
+    "name": "Vibraphone",
+    "opl2_register_data": [
+      209,
+      1,
+      225,
+      195,
+      0,
+      210,
+      30,
+      82,
+      176,
+      0,
+      12
+    ],
+    "gm_program": 11
+  },
+  {
+    "index": 3,
+    "name": "Jazz Organ",
+    "opl2_register_data": [
+      177,
+      2,
+      128,
+      255,
+      0,
+      35,
+      41,
+      209,
+      182,
+      0,
+      0
+    ],
+    "gm_program": 18
+  },
+  {
+    "index": 4,
+    "name": "Pipe Organ",
+    "opl2_register_data": [
+      32,
+      3,
+      128,
+      255,
+      0,
+      33,
+      20,
+      240,
+      255,
+      0,
+      8
+    ],
+    "gm_program": 19
+  },
+  {
+    "index": 5,
+    "name": "Brass Ens",
+    "opl2_register_data": [
+      33,
+      0,
+      113,
+      174,
+      0,
+      49,
+      22,
+      227,
+      78,
+      0,
+      14
+    ],
+    "gm_program": 61
+  },
+  {
+    "index": 6,
+    "name": "Strings 1",
+    "opl2_register_data": [
+      97,
+      0,
+      83,
+      62,
+      0,
+      113,
+      22,
+      49,
+      78,
+      0,
+      14
+    ],
+    "gm_program": 40
+  },
+  {
+    "index": 7,
+    "name": "Flute",
+    "opl2_register_data": [
+      97,
+      0,
+      240,
+      255,
+      0,
+      65,
+      45,
+      241,
+      255,
+      0,
+      14
+    ],
+    "gm_program": 73
+  },
+  {
+    "index": 8,
+    "name": "Chorus",
+    "opl2_register_data": [
+      193,
+      0,
+      130,
+      255,
+      0,
+      225,
+      30,
+      82,
+      255,
+      0,
+      0
+    ],
+    "gm_program": 52
+  },
+  {
+    "index": 9,
+    "name": "Jazz Guitar",
+    "opl2_register_data": [
+      33,
+      4,
+      226,
+      0,
+      0,
+      36,
+      208,
+      242,
+      0,
+      0,
+      0
+    ],
+    "gm_program": 26
+  },
+  {
+    "index": 10,
+    "name": "Bells",
+    "opl2_register_data": [
+      21,
+      4,
+      242,
+      114,
+      0,
+      116,
+      79,
+      242,
+      96,
+      0,
+      8
+    ],
+    "gm_program": 14
+  },
+  {
+    "index": 11,
+    "name": "Funky Clavi",
+    "opl2_register_data": [
+      0,
+      4,
+      240,
+      248,
+      0,
+      0,
+      16,
+      240,
+      255,
+      0,
+      10
+    ],
+    "gm_program": 7
+  },
+  {
+    "index": 12,
+    "name": "Metallic Sound",
+    "opl2_register_data": [
+      145,
+      2,
+      145,
+      255,
+      0,
+      2,
+      18,
+      178,
+      182,
+      0,
+      10
+    ],
+    "gm_program": 93
+  },
+  {
+    "index": 13,
+    "name": "Synthens",
+    "opl2_register_data": [
+      49,
+      0,
+      65,
+      45,
+      0,
+      36,
+      84,
+      53,
+      253,
+      0,
+      14
+    ],
+    "gm_program": 97
+  },
+  {
+    "index": 14,
+    "name": "Percussion",
+    "opl2_register_data": [
+      0,
+      0,
+      214,
+      191,
+      0,
+      0,
+      13,
+      168,
+      188,
+      0,
+      0
+    ],
+    "gm_program": 12
+  },
+  {
+    "index": 15,
+    "name": "Honky-Tonk Piano",
+    "opl2_register_data": [
+      65,
+      2,
+      210,
+      124,
+      0,
+      65,
+      25,
+      100,
+      0,
+      0,
+      2
+    ],
+    "gm_program": 3
+  },
+  {
+    "index": 16,
+    "name": "Electric Piano",
+    "opl2_register_data": [
+      129,
+      0,
+      211,
+      255,
+      0,
+      160,
+      35,
+      243,
+      0,
+      0,
+      0
+    ],
+    "gm_program": 2
+  },
+  {
+    "index": 17,
+    "name": "Marimba",
+    "opl2_register_data": [
+      193,
+      0,
+      246,
+      181,
+      0,
+      3,
+      6,
+      14,
+      240,
+      0,
+      4
+    ],
+    "gm_program": 12
+  },
+  {
+    "index": 18,
+    "name": "Organ",
+    "opl2_register_data": [
+      1,
+      4,
+      240,
+      255,
+      0,
+      4,
+      44,
+      241,
+      255,
+      0,
+      0
+    ],
+    "gm_program": 16
+  },
+  {
+    "index": 19,
+    "name": "Accordion",
+    "opl2_register_data": [
+      161,
+      0,
+      194,
+      31,
+      0,
+      161,
+      28,
+      98,
+      31,
+      0,
+      14
+    ],
+    "gm_program": 21
+  },
+  {
+    "index": 20,
+    "name": "Trumpet",
+    "opl2_register_data": [
+      97,
+      0,
+      221,
+      22,
+      0,
+      49,
+      26,
+      50,
+      22,
+      0,
+      12
+    ],
+    "gm_program": 56
+  },
+  {
+    "index": 21,
+    "name": "Strings 2",
+    "opl2_register_data": [
+      97,
+      0,
+      181,
+      46,
+      0,
+      113,
+      30,
+      81,
+      78,
+      0,
+      14
+    ],
+    "gm_program": 42
+  },
+  {
+    "index": 22,
+    "name": "Oboe",
+    "opl2_register_data": [
+      33,
+      4,
+      139,
+      14,
+      0,
+      48,
+      15,
+      135,
+      23,
+      0,
+      2
+    ],
+    "gm_program": 68
+  },
+  {
+    "index": 23,
+    "name": "Synth-Reed",
+    "opl2_register_data": [
+      65,
+      2,
+      240,
+      255,
+      0,
+      66,
+      38,
+      241,
+      255,
+      0,
+      0
+    ],
+    "gm_program": 20
+  },
+  {
+    "index": 24,
+    "name": "Harp",
+    "opl2_register_data": [
+      1,
+      0,
+      132,
+      255,
+      0,
+      33,
+      60,
+      233,
+      29,
+      0,
+      0
+    ],
+    "gm_program": 46
+  },
+  {
+    "index": 25,
+    "name": "Synth-Celesta",
+    "opl2_register_data": [
+      177,
+      0,
+      131,
+      255,
+      0,
+      49,
+      25,
+      209,
+      182,
+      0,
+      14
+    ],
+    "gm_program": 8
+  },
+  {
+    "index": 26,
+    "name": "Synth-Clavi",
+    "opl2_register_data": [
+      192,
+      3,
+      243,
+      248,
+      0,
+      192,
+      18,
+      240,
+      255,
+      0,
+      8
+    ],
+    "gm_program": 7
+  },
+  {
+    "index": 27,
+    "name": "Fantasy",
+    "opl2_register_data": [
+      65,
+      4,
+      132,
+      255,
+      0,
+      99,
+      30,
+      240,
+      255,
+      0,
+      14
+    ],
+    "gm_program": 89
+  },
+  {
+    "index": 28,
+    "name": "Miracle",
+    "opl2_register_data": [
+      33,
+      0,
+      51,
+      49,
+      0,
+      33,
+      16,
+      17,
+      60,
+      0,
+      10
+    ],
+    "gm_program": 95
+  },
+  {
+    "index": 29,
+    "name": "Bass",
+    "opl2_register_data": [
+      32,
+      0,
+      132,
+      255,
+      0,
+      32,
+      12,
+      132,
+      255,
+      0,
+      8
+    ],
+    "gm_program": 32
+  },
+  {
+    "index": 30,
+    "name": "Super base!",
+    "opl2_register_data": [
+      1,
+      0,
+      161,
+      132,
+      0,
+      192,
+      24,
+      114,
+      179,
+      0,
+      14
+    ],
+    "gm_program": 38
+  },
+  {
+    "index": 31,
+    "name": "Funky strings",
+    "opl2_register_data": [
+      225,
+      10,
+      210,
+      243,
+      0,
+      225,
+      20,
+      176,
+      243,
+      0,
+      12
+    ],
+    "gm_program": 48
+  },
+  {
+    "index": 32,
+    "name": "Pure sine wave",
+    "opl2_register_data": [
+      33,
+      0,
+      255,
+      12,
+      0,
+      1,
+      63,
+      0,
+      0,
+      0,
+      0
+    ],
+    "gm_program": 82
+  },
+  {
+    "index": 33,
+    "name": "Nice vibraphone",
+    "opl2_register_data": [
+      145,
+      0,
+      210,
+      117,
+      0,
+      146,
+      32,
+      193,
+      127,
+      0,
+      14
+    ],
+    "gm_program": 11
+  },
+  {
+    "index": 34,
+    "name": "Good one",
+    "opl2_register_data": [
+      32,
+      0,
+      162,
+      162,
+      0,
+      224,
+      16,
+      162,
+      162,
+      0,
+      12
+    ],
+    "gm_program": 26
+  },
+  {
+    "index": 35,
+    "name": "Saxyphone",
+    "opl2_register_data": [
+      33,
+      0,
+      99,
+      14,
+      0,
+      33,
+      22,
+      99,
+      14,
+      0,
+      12
+    ],
+    "gm_program": 66
+  },
+  {
+    "index": 36,
+    "name": "Violin (#2)",
+    "opl2_register_data": [
+      33,
+      0,
+      68,
+      23,
+      0,
+      113,
+      28,
+      81,
+      3,
+      0,
+      14
+    ],
+    "gm_program": 42
+  },
+  {
+    "index": 37,
+    "name": "Glockthing",
+    "opl2_register_data": [
+      34,
+      0,
+      240,
+      84,
+      0,
+      135,
+      145,
+      245,
+      85,
+      0,
+      6
+    ],
+    "gm_program": 9
+  },
+  {
+    "index": 38,
+    "name": "Tubebell",
+    "opl2_register_data": [
+      209,
+      0,
+      209,
+      49,
+      0,
+      243,
+      74,
+      182,
+      50,
+      0,
+      14
+    ],
+    "gm_program": 14
+  },
+  {
+    "index": 39,
+    "name": "SineWave",
+    "opl2_register_data": [
+      1,
+      0,
+      240,
+      248,
+      0,
+      1,
+      17,
+      240,
+      255,
+      0,
+      10
+    ],
+    "gm_program": 82
+  },
+  {
+    "index": 40,
+    "name": "Bassoon",
+    "opl2_register_data": [
+      34,
+      0,
+      107,
+      14,
+      0,
+      112,
+      141,
+      110,
+      23,
+      0,
+      2
+    ],
+    "gm_program": 70
+  },
+  {
+    "index": 41,
+    "name": "EchoBell",
+    "opl2_register_data": [
+      228,
+      65,
+      240,
+      242,
+      0,
+      17,
+      3,
+      130,
+      151,
+      0,
+      8
+    ],
+    "gm_program": 14
+  },
+  {
+    "index": 42,
+    "name": "Synth-Mallet",
+    "opl2_register_data": [
+      17,
+      128,
+      245,
+      3,
+      0,
+      19,
+      140,
+      245,
+      33,
+      0,
+      14
+    ],
+    "gm_program": 93
+  },
+  {
+    "index": 43,
+    "name": "Bad xylophone",
+    "opl2_register_data": [
+      65,
+      64,
+      246,
+      181,
+      0,
+      3,
+      0,
+      239,
+      15,
+      0,
+      14
+    ],
+    "gm_program": 13
+  },
+  {
+    "index": 44,
+    "name": "Bell",
+    "opl2_register_data": [
+      21,
+      0,
+      242,
+      114,
+      0,
+      8,
+      79,
+      242,
+      96,
+      0,
+      8
+    ],
+    "gm_program": 112
+  },
+  {
+    "index": 45,
+    "name": "Wow!",
+    "opl2_register_data": [
+      49,
+      0,
+      80,
+      45,
+      0,
+      36,
+      85,
+      85,
+      253,
+      0,
+      14
+    ],
+    "gm_program": 103
+  },
+  {
+    "index": 46,
+    "name": "Greasong instrument",
+    "opl2_register_data": [
+      193,
+      0,
+      211,
+      56,
+      0,
+      1,
+      20,
+      197,
+      88,
+      0,
+      12
+    ],
+    "gm_program": 96
+  },
+  {
+    "index": 47,
+    "name": "Chart Instrument",
+    "opl2_register_data": [
+      1,
+      1,
+      145,
+      127,
+      0,
+      193,
+      21,
+      197,
+      111,
+      0,
+      12
+    ],
+    "gm_program": 100
+  },
+  {
+    "index": 48,
+    "name": "Wacky Vibraphone!",
+    "opl2_register_data": [
+      2,
+      0,
+      210,
+      120,
+      0,
+      67,
+      24,
+      211,
+      124,
+      0,
+      12
+    ],
+    "gm_program": 11
+  },
+  {
+    "index": 49,
+    "name": "Metallic guitar?",
+    "opl2_register_data": [
+      2,
+      0,
+      210,
+      252,
+      0,
+      17,
+      16,
+      82,
+      252,
+      0,
+      10
+    ],
+    "gm_program": 27
+  },
+  {
+    "index": 50,
+    "name": "Notegain instrument",
+    "opl2_register_data": [
+      226,
+      0,
+      162,
+      167,
+      0,
+      33,
+      28,
+      196,
+      135,
+      0,
+      14
+    ],
+    "gm_program": 103
+  },
+  {
+    "index": 51,
+    "name": "Tempsong Instrument",
+    "opl2_register_data": [
+      1,
+      0,
+      210,
+      115,
+      0,
+      64,
+      24,
+      210,
+      115,
+      0,
+      14
+    ],
+    "gm_program": 94
+  },
+  {
+    "index": 52,
+    "name": "Coolinst",
+    "opl2_register_data": [
+      0,
+      0,
+      210,
+      116,
+      0,
+      0,
+      18,
+      147,
+      114,
+      0,
+      10
+    ],
+    "gm_program": 84
+  },
+  {
+    "index": 53,
+    "name": "Echosomething!",
+    "opl2_register_data": [
+      209,
+      1,
+      145,
+      117,
+      0,
+      17,
+      5,
+      83,
+      213,
+      0,
+      4
+    ],
+    "gm_program": 102
+  },
+  {
+    "index": 54,
+    "name": "Another inst!",
+    "opl2_register_data": [
+      129,
+      0,
+      210,
+      214,
+      0,
+      1,
+      16,
+      178,
+      180,
+      0,
+      10
+    ],
+    "gm_program": 103
+  },
+  {
+    "index": 55,
+    "name": "Low metallic guitar?",
+    "opl2_register_data": [
+      1,
+      0,
+      210,
+      252,
+      0,
+      16,
+      16,
+      82,
+      252,
+      0,
+      10
+    ],
+    "gm_program": 25
+  },
+  {
+    "index": 56,
+    "name": "Perfect",
+    "opl2_register_data": [
+      160,
+      0,
+      146,
+      118,
+      0,
+      176,
+      20,
+      130,
+      103,
+      0,
+      10
+    ],
+    "gm_program": 85
+  },
+  {
+    "index": 57,
+    "name": "Andy's Instrument.",
+    "opl2_register_data": [
+      241,
+      0,
+      81,
+      85,
+      0,
+      177,
+      45,
+      81,
+      85,
+      0,
+      0
+    ],
+    "gm_program": 87
+  },
+  {
+    "index": 58,
+    "name": "Power-inst.",
+    "opl2_register_data": [
+      0,
+      0,
+      242,
+      195,
+      0,
+      0,
+      16,
+      162,
+      162,
+      0,
+      12
+    ],
+    "gm_program": 87
+  },
+  {
+    "index": 59,
+    "name": "Fiddle.",
+    "opl2_register_data": [
+      33,
+      64,
+      105,
+      14,
+      0,
+      17,
+      67,
+      155,
+      48,
+      0,
+      0
+    ],
+    "gm_program": 110
+  },
+  {
+    "index": 60,
+    "name": "Tubebell #2.",
+    "opl2_register_data": [
+      209,
+      0,
+      161,
+      49,
+      0,
+      243,
+      139,
+      182,
+      50,
+      1,
+      14
+    ],
+    "gm_program": 14
+  },
+  {
+    "index": 61,
+    "name": "Tempsong2",
+    "opl2_register_data": [
+      0,
+      0,
+      210,
+      115,
+      0,
+      129,
+      24,
+      242,
+      16,
+      0,
+      14
+    ],
+    "gm_program": 76
+  },
+  {
+    "index": 62,
+    "name": "winner",
+    "opl2_register_data": [
+      129,
+      1,
+      242,
+      119,
+      1,
+      49,
+      45,
+      243,
+      125,
+      1,
+      14
+    ],
+    "gm_program": 83
+  },
+  {
+    "index": 63,
+    "name": "Echo-cool",
+    "opl2_register_data": [
+      0,
+      0,
+      210,
+      124,
+      3,
+      192,
+      15,
+      162,
+      90,
+      0,
+      12
+    ],
+    "gm_program": 103
+  },
+  {
+    "index": 64,
+    "name": "Electric Guitar.  ",
+    "opl2_register_data": [
+      1,
+      0,
+      210,
+      124,
+      3,
+      1,
+      16,
+      178,
+      157,
+      0,
+      0
+    ],
+    "gm_program": 27
+  },
+  {
+    "index": 65,
+    "name": "Dad whoop whoop",
+    "opl2_register_data": [
+      113,
+      64,
+      241,
+      12,
+      0,
+      129,
+      3,
+      85,
+      13,
+      3,
+      0
+    ],
+    "gm_program": 30
+  },
+  {
+    "index": 66,
+    "name": "Dad ukelele",
+    "opl2_register_data": [
+      225,
+      0,
+      243,
+      239,
+      0,
+      144,
+      65,
+      215,
+      128,
+      2,
+      0
+    ],
+    "gm_program": 24
+  },
+  {
+    "index": 67,
+    "name": "Dad's bassoon",
+    "opl2_register_data": [
+      242,
+      0,
+      243,
+      239,
+      0,
+      48,
+      64,
+      102,
+      224,
+      1,
+      8
+    ],
+    "gm_program": 70
+  },
+  {
+    "index": 68,
+    "name": "An Adlib Miracle!",
+    "opl2_register_data": [
+      65,
+      0,
+      130,
+      100,
+      0,
+      0,
+      5,
+      162,
+      50,
+      1,
+      10
+    ],
+    "gm_program": 60
+  },
+  {
+    "index": 69,
+    "name": "Nice sax",
+    "opl2_register_data": [
+      0,
+      0,
+      132,
+      248,
+      1,
+      0,
+      6,
+      162,
+      136,
+      0,
+      8
+    ],
+    "gm_program": 65
+  },
+  {
+    "index": 70,
+    "name": "Dad's dinger.",
+    "opl2_register_data": [
+      148,
+      0,
+      218,
+      1,
+      0,
+      193,
+      6,
+      218,
+      20,
+      0,
+      6
+    ],
+    "gm_program": 10
+  },
+  {
+    "index": 71,
+    "name": "Adlib Miracle II",
+    "opl2_register_data": [
+      193,
+      0,
+      130,
+      100,
+      0,
+      64,
+      8,
+      99,
+      50,
+      1,
+      10
+    ],
+    "gm_program": 59
+  },
+  {
+    "index": 72,
+    "name": "Whatchamacallit",
+    "opl2_register_data": [
+      17,
+      0,
+      210,
+      124,
+      1,
+      1,
+      32,
+      116,
+      252,
+      3,
+      6
+    ],
+    "gm_program": 71
+  },
+  {
+    "index": 73,
+    "name": "Coolgamesound",
+    "opl2_register_data": [
+      192,
+      0,
+      97,
+      166,
+      3,
+      193,
+      84,
+      163,
+      230,
+      0,
+      14
+    ],
+    "gm_program": 94
+  },
+  {
+    "index": 74,
+    "name": "Electric Guitar II",
+    "opl2_register_data": [
+      64,
+      0,
+      129,
+      166,
+      3,
+      64,
+      202,
+      130,
+      166,
+      1,
+      12
+    ],
+    "gm_program": 30
+  },
+  {
+    "index": 75,
+    "name": "Nasty-cool",
+    "opl2_register_data": [
+      208,
+      0,
+      161,
+      50,
+      1,
+      241,
+      140,
+      182,
+      51,
+      3,
+      6
+    ],
+    "gm_program": 84
+  },
+  {
+    "index": 76,
+    "name": "Wavyinst",
+    "opl2_register_data": [
+      2,
+      0,
+      98,
+      166,
+      2,
+      161,
+      12,
+      135,
+      32,
+      0,
+      12
+    ],
+    "gm_program": 99
+  },
+  {
+    "index": 77,
+    "name": "Brassenhanced",
+    "opl2_register_data": [
+      192,
+      0,
+      131,
+      245,
+      1,
+      192,
+      30,
+      241,
+      240,
+      3,
+      0
+    ],
+    "gm_program": 62
+  },
+  {
+    "index": 78,
+    "name": "Electric",
+    "opl2_register_data": [
+      64,
+      0,
+      130,
+      243,
+      3,
+      64,
+      22,
+      241,
+      243,
+      0,
+      8
+    ],
+    "gm_program": 27
+  },
+  {
+    "index": 79,
+    "name": "Fantasywowdream etc.",
+    "opl2_register_data": [
+      1,
+      0,
+      242,
+      117,
+      0,
+      66,
+      16,
+      53,
+      49,
+      1,
+      12
+    ],
+    "gm_program": 88
+  },
+  {
+    "index": 80,
+    "name": "FastasydreamLOW",
+    "opl2_register_data": [
+      0,
+      0,
+      243,
+      117,
+      0,
+      65,
+      16,
+      53,
+      49,
+      1,
+      12
+    ],
+    "gm_program": 89
+  },
+  {
+    "index": 81,
+    "name": "SaxLow",
+    "opl2_register_data": [
+      32,
+      0,
+      99,
+      14,
+      0,
+      32,
+      22,
+      99,
+      14,
+      0,
+      12
+    ],
+    "gm_program": 67
+  },
+  {
+    "index": 82,
+    "name": "Adlib miracle III",
+    "opl2_register_data": [
+      65,
+      0,
+      130,
+      100,
+      0,
+      0,
+      8,
+      162,
+      50,
+      1,
+      6
+    ],
+    "gm_program": 94
+  },
+  {
+    "index": 83,
+    "name": "Superbrass",
+    "opl2_register_data": [
+      33,
+      0,
+      99,
+      5,
+      0,
+      33,
+      16,
+      82,
+      242,
+      0,
+      12
+    ],
+    "gm_program": 63
+  },
+  {
+    "index": 84,
+    "name": "Niceone2",
+    "opl2_register_data": [
+      32,
+      0,
+      99,
+      21,
+      0,
+      32,
+      16,
+      81,
+      145,
+      0,
+      12
+    ],
+    "gm_program": 91
+  },
+  {
+    "index": 85,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 86,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 87,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 88,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 89,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 90,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 91,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 92,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 93,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 94,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 95,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 96,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 97,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 98,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 99,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 100,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 101,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 102,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 103,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 104,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 105,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 106,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 107,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 108,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 109,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 110,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 111,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 112,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 113,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 114,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 115,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 116,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 117,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 118,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 119,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 120,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 121,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 122,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 123,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 124,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 125,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 126,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 127,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 128,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 129,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 130,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 131,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 132,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 133,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 134,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 135,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 136,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 137,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 138,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 139,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 140,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 141,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 142,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 143,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 144,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 145,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 146,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 147,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 148,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 149,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 150,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 151,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 152,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 153,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 154,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 155,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 156,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 157,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 158,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 159,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 160,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 161,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 162,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 163,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 164,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 165,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 166,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 167,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 168,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 169,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 170,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 171,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 172,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 173,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 174,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 175,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 176,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 177,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 178,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 179,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 180,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 181,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 182,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 183,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 184,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 185,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 186,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 187,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 188,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 189,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 190,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 191,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 192,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 193,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 194,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 195,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 196,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 197,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 198,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 199,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 200,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 201,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 202,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 203,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 204,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 205,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 206,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 207,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 208,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 209,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 210,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 211,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 212,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 213,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 214,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 215,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 216,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 217,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 218,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 219,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 220,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 221,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 222,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 223,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 224,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 225,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 226,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 227,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 228,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 229,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 230,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 231,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 232,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 233,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 234,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 235,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 236,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 237,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 238,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 239,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 240,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 241,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 242,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 243,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 244,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 245,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 246,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 247,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 248,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 249,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 250,
+    "name": "NOT!",
+    "opl2_register_data": [
+      1,
+      1,
+      210,
+      124,
+      0,
+      1,
+      25,
+      210,
+      124,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 251,
+    "name": "Da' new Cymbal",
+    "opl2_register_data": [
+      0,
+      0,
+      245,
+      200,
+      0,
+      0,
+      0,
+      164,
+      255,
+      2,
+      0
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 252,
+    "name": "Da' new snare",
+    "opl2_register_data": [
+      0,
+      0,
+      247,
+      196,
+      2,
+      0,
+      0,
+      247,
+      143,
+      0,
+      0
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 253,
+    "name": "Bass drum.",
+    "opl2_register_data": [
+      16,
+      0,
+      214,
+      104,
+      0,
+      0,
+      9,
+      231,
+      119,
+      0,
+      4
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 254,
+    "name": "Snare / Hihat",
+    "opl2_register_data": [
+      0,
+      0,
+      199,
+      56,
+      0,
+      0,
+      0,
+      248,
+      255,
+      0,
+      14
+    ],
+    "gm_program": 0
+  },
+  {
+    "index": 255,
+    "name": "Cymbal / TomTom",
+    "opl2_register_data": [
+      0,
+      0,
+      245,
+      200,
+      0,
+      0,
+      0,
+      247,
+      143,
+      0,
+      0
+    ],
+    "gm_program": 0
+  }
+]

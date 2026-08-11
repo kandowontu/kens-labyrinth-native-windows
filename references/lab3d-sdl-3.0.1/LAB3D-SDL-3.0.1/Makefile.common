@@ -1,0 +1,13 @@
+COMMON_OBJS=subs.o init.o graphx.o lab3d.o setup.o adlibemu.o oldlab3d.o opengl.o software.o
+
+COMMON_CFLAGS=`sdl-config --cflags` -O3 -Wno-pointer-sign -Wall -fstrict-aliasing
+
+default: $(COMMON_OBJS) $(PLATFORM_OBJS)
+	gcc -o $(EXE) $(COMMON_OBJS) $(PLATFORM_OBJS) $(LINKER_FLAGS)
+	strip -s $(EXE)
+
+%.o: %.c lab3d.h
+	gcc $(CFLAGS) $(COMMON_CFLAGS) $(PLATFORM_CFLAGS) -o $@ -c $<
+
+clean:
+	rm -f $(COMMON_OBJS) $(PLATFORM_OBJS)

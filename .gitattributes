@@ -1,0 +1,27 @@
+* text=auto
+*.c text eol=lf
+*.h text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.txt text eol=lf
+*.asm text eol=lf
+*.bat text eol=crlf
+*.bmp binary
+*.dat binary
+*.dll binary
+*.exe binary
+*.gif binary
+*.kzp binary
+*.mid binary
+*.png binary
+*.vhd binary
+*.wav binary
+*.zip binary
+
+# Preserve archival inputs byte-for-byte, including DOS text encodings.
+/original/** binary
+/game-data/** binary
+/assets/ripped/** binary
+/references/official-full/** binary
+/references/original-source/** binary
+/references/original-toolkit/** binary

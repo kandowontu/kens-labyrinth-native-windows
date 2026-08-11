@@ -1,0 +1,106 @@
+{
+  "original_network_path": "\\\\192.168.1.176\\sdcard\\games\\AO486\\media\\Ken's Labyrinth\\kens.vhd",
+  "vhd": {
+    "file": "kens.vhd",
+    "bytes": 33546752,
+    "sha256": "72FB5B5856169FF43F426BC362ACBEE0E6A49E8BED74FFBE24489B2D827B5F99"
+  },
+  "extraction": {
+    "filesystem": "FAT16 LBA",
+    "method": "read-only mount",
+    "file_count": 18,
+    "total_file_bytes": 1204860,
+    "files": [
+      {
+        "file": "boards.kzp",
+        "bytes": 55110,
+        "sha256": "4CF55FC511B52AC063E1F717440FF98FEDB85CCF5912E96051BF449B4A6C9BE2"
+      },
+      {
+        "file": "helpme.doc",
+        "bytes": 11060,
+        "sha256": "8E8B5F5DEEE7A85750EDA7E91A3917DA74075D75850D567A673E0F16D4A1141A"
+      },
+      {
+        "file": "hints.txt",
+        "bytes": 45270,
+        "sha256": "7451C1BB0AA8A35B3ABB3C4152C088E8A39F893E722327CB61A66310F02736D1"
+      },
+      {
+        "file": "hiscore.dat",
+        "bytes": 3840,
+        "sha256": "44183A493A7C198644C1F206C63C49CDB3AE928FB5D67505FB90492C37B77005"
+      },
+      {
+        "file": "insts.dat",
+        "bytes": 8448,
+        "sha256": "5AA606BBAEDE7B245C1F8856D19AC32C8E91D168A2C121963B8249011CA4552D"
+      },
+      {
+        "file": "ken.exe",
+        "bytes": 110775,
+        "sha256": "6D33F1502C80CDF2307B86AE77662F478F3C537367631043489442D373BB75C1"
+      },
+      {
+        "file": "lab3d.kzp",
+        "bytes": 106940,
+        "sha256": "C42BDFC754EEA7AE24115780904F618F8473AB85C99DF7D6D62F40482C89D498"
+      },
+      {
+        "file": "readme.txt",
+        "bytes": 2295,
+        "sha256": "B4A4FBF1F9EF0601BDE0169FD95B649BF4D41415E5DB41B6A24F5A28DDA69B39"
+      },
+      {
+        "file": "savgame4.dat",
+        "bytes": 9016,
+        "sha256": "279409CBB8B4A444E45A05D657B177228B62A4AB5DD87C6B63F910CDD7EDB381"
+      },
+      {
+        "file": "savgame5.dat",
+        "bytes": 9142,
+        "sha256": "667CC46206963F8801D5B176D2D57FDA920206E7BB49A4878C69CEBC8996B06E"
+      },
+      {
+        "file": "savgame6.dat",
+        "bytes": 9455,
+        "sha256": "80A28F9C053B8678614BE6BC8424E7B1BE97963F67C5528818451EEE3D37302C"
+      },
+      {
+        "file": "savgame7.dat",
+        "bytes": 11133,
+        "sha256": "741F5AE211309AA75E25417CD96A59AAC99924677C4A1D9691D1F0CBD7036913"
+      },
+      {
+        "file": "setup.exe",
+        "bytes": 15553,
+        "sha256": "C41DD777EA81AC9B64520A4E9435441126928E7391334318859C5B5A9816212B"
+      },
+      {
+        "file": "songs.kzp",
+        "bytes": 104176,
+        "sha256": "92E7C69BAEE46899960E18036D1985488443E88F351D8916CBF872529D36A273"
+      },
+      {
+        "file": "sounds.kzp",
+        "bytes": 294352,
+        "sha256": "F371359C8A325EC9E6800A3693F258E63928EF45FA5C86F90FBC5A97E045D217"
+      },
+      {
+        "file": "story.kzp",
+        "bytes": 21118,
+        "sha256": "3D437DB09C2DFD6DB830BADDBFC432E7F55C2A193C242E2AB2AE579C982F470B"
+      },
+      {
+        "file": "tables.dat",
+        "bytes": 13044,
+        "sha256": "296DB392614FDBC254BFC3037CA30C248C0D65DB3612B40AA387380FBB79055D"
+      },
+      {
+        "file": "walls.kzp",
+        "bytes": 374133,
+        "sha256": "7643F5F26ED9906F1EDE6B6E54C18265DEBEFFB4E8C9140FBF8C51FB0AF4D42D"
+      }
+    ]
+  }
+}

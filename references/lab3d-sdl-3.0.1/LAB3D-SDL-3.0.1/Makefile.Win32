@@ -1,0 +1,9 @@
+PLATFORM_OBJS=icon.o
+PLATFORM_CFLAGS=
+LINKER_FLAGS=`sdl-config --libs` -lopengl32 -lglu32 -lwinmm -lole32 -luuid
+EXE=ken.exe
+
+include Makefile.common
+
+icon.o: ken.ico ken.rc
+	windres -i ken.rc -o icon.o

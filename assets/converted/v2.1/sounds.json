@@ -1,0 +1,299 @@
+[
+  {
+    "file": "wav/SOUNDS-001.wav",
+    "sha256": "44A706B37A6B5D2FFC65AD0B6C2D55BB604824EFBBEBAB1D7D00A5DAB5B0F7CB",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 5336,
+    "duration_seconds": 0.483991
+  },
+  {
+    "file": "wav/SOUNDS-002.wav",
+    "sha256": "7A3EBEA58DFCA1F24661F8454FB953B371C46AB3D2859F41447E6941930F5164",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 14983,
+    "duration_seconds": 1.359002
+  },
+  {
+    "file": "wav/SOUNDS-003.wav",
+    "sha256": "B5D61E6811C1E27EF0E5E7248E414FA0E245500CBDF102AFA52D7224913DA0F9",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 2813,
+    "duration_seconds": 0.255147
+  },
+  {
+    "file": "wav/SOUNDS-004.wav",
+    "sha256": "D974F60A0985F84159C46BE12C9619DDBF75B9897D23CA6FB1D9773C73B23C8E",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 4478,
+    "duration_seconds": 0.406168
+  },
+  {
+    "file": "wav/SOUNDS-005.wav",
+    "sha256": "BA09D9DA6DC20C51EFD031D052E99B9D0F7F54F27A4597444F354D5732A27C50",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 4883,
+    "duration_seconds": 0.442902
+  },
+  {
+    "file": "wav/SOUNDS-006.wav",
+    "sha256": "1056F1D3480AA60798BC3A00B6FF64A9BBCCF1D26B332D3D3EF222269CC86390",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 15098,
+    "duration_seconds": 1.369433
+  },
+  {
+    "file": "wav/SOUNDS-007.wav",
+    "sha256": "BEE5C483A8F5E793EAD33553372F430E1D4DC540846FC0BCBBF47E53358751E6",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 12281,
+    "duration_seconds": 1.113923
+  },
+  {
+    "file": "wav/SOUNDS-008.wav",
+    "sha256": "424072A611BB365DA50E1FDBBAFE4BD72B111ED2C90305CD09C42B10FAA9DBCC",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 2428,
+    "duration_seconds": 0.220227
+  },
+  {
+    "file": "wav/SOUNDS-009.wav",
+    "sha256": "04832CB349CF0649C323FE84C474F874CE1367251991CAF84F7BFDF2C8FC9D79",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 2352,
+    "duration_seconds": 0.213333
+  },
+  {
+    "file": "wav/SOUNDS-010.wav",
+    "sha256": "C8A0ED5CE407AAB49F9D3EA2691260F2F8954C877455734A3F797158A0477876",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 8135,
+    "duration_seconds": 0.737868
+  },
+  {
+    "file": "wav/SOUNDS-011.wav",
+    "sha256": "1EE6489FBF07ACC4C5CE85B5F040C481080CD6726FCFC58EBCCCDFF60BA5B11B",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 8179,
+    "duration_seconds": 0.741859
+  },
+  {
+    "file": "wav/SOUNDS-012.wav",
+    "sha256": "5B8D1A9950AFD33CDE884EB60EFB292C33AA6A2DC67686CD2034B5C330CE1997",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 10021,
+    "duration_seconds": 0.908934
+  },
+  {
+    "file": "wav/SOUNDS-013.wav",
+    "sha256": "BBFF97610F90FF0A1FD996342AA9830A2D801E0D0A0FD30A657F068EEB4BEFE1",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 1562,
+    "duration_seconds": 0.141678
+  },
+  {
+    "file": "wav/SOUNDS-014.wav",
+    "sha256": "F1CE6F494785D866E24C7079973F4DB9A157B7322B7711C28F25298183B64E84",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 4479,
+    "duration_seconds": 0.406259
+  },
+  {
+    "file": "wav/SOUNDS-015.wav",
+    "sha256": "4C270B8F90EE372FF2D3A55D5ACA140F9C859B8C5AEC3B0ADF8F290011DA107F",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 4159,
+    "duration_seconds": 0.377234
+  },
+  {
+    "file": "wav/SOUNDS-016.wav",
+    "sha256": "24F2D8151CE0D4FDDD5D621792104D07905BD8F58E30BF0EA33B2CD05A35370F",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 6137,
+    "duration_seconds": 0.556644
+  },
+  {
+    "file": "wav/SOUNDS-017.wav",
+    "sha256": "93A53CD40420D5C6A60BD22AE906F8A010E42A69B879AB1B1FD9AF3E34162C26",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 1899,
+    "duration_seconds": 0.172245
+  },
+  {
+    "file": "wav/SOUNDS-018.wav",
+    "sha256": "4490A71D93F1455D781D6D2F2B3130D3FBC337CA3A6C638C7A893AF892F16A97",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 10810,
+    "duration_seconds": 0.980499
+  },
+  {
+    "file": "wav/SOUNDS-019.wav",
+    "sha256": "10DE7CD04E26F51B48A15940416FBC8EC02987972C73670CE88C12961160F151",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 16428,
+    "duration_seconds": 1.490068
+  },
+  {
+    "file": "wav/SOUNDS-020.wav",
+    "sha256": "ADD18665B75C27CE7485C2F3C1DA83ECB6A947005ABB3AED3BFBA654F80FB5FA",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 17444,
+    "duration_seconds": 1.582222
+  },
+  {
+    "file": "wav/SOUNDS-021.wav",
+    "sha256": "36A52EAB7AFD1ECE6FB59F8BD1623A542392ED7E89D9C2648AF1CB7E4B01DDDF",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 26624,
+    "duration_seconds": 2.414875
+  },
+  {
+    "file": "wav/SOUNDS-022.wav",
+    "sha256": "76438B6B5AFDE4B6ED755F47CDF4329773AC3E4561BE19528A30744F3888D9C4",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 26624,
+    "duration_seconds": 2.414875
+  },
+  {
+    "file": "wav/SOUNDS-023.wav",
+    "sha256": "0A3FBB186D31EA3396DBAB23B1DD9191B92F4FA4D4E6DF4F5C4AD63B66430C9D",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 6260,
+    "duration_seconds": 0.5678
+  },
+  {
+    "file": "wav/SOUNDS-024.wav",
+    "sha256": "7C4E110FCF95B376489AF6C57F59B205336BC4F361D0CE64189BD080AB75F591",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 13747,
+    "duration_seconds": 1.246893
+  },
+  {
+    "file": "wav/SOUNDS-025.wav",
+    "sha256": "87CAC8531AFF257230BF82A4437B27A0EB8C7B7741A475CF56BE2E2CB512AE93",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 10296,
+    "duration_seconds": 0.933878
+  },
+  {
+    "file": "wav/SOUNDS-026.wav",
+    "sha256": "9CA19FD0983F56CF79CF0CE3E98D34E2084607994D23F40875A7A2EC0AE16F0B",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 3202,
+    "duration_seconds": 0.290431
+  },
+  {
+    "file": "wav/SOUNDS-027.wav",
+    "sha256": "E5C8AFBB204C38ACAAEB1998B3FEAC26ADEBB72165938652370B9523B99360FF",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 3987,
+    "duration_seconds": 0.361633
+  },
+  {
+    "file": "wav/SOUNDS-028.wav",
+    "sha256": "9DA0B94F585410A9C27C9DEB479BF5029390BD55E567BE3897BC122B34456F13",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 2370,
+    "duration_seconds": 0.214966
+  },
+  {
+    "file": "wav/SOUNDS-029.wav",
+    "sha256": "91FC1C269DC4372F18BF1BE589240EBB26EDA1225AD22170E510F7851C8A5665",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 16361,
+    "duration_seconds": 1.483991
+  },
+  {
+    "file": "wav/SOUNDS-030.wav",
+    "sha256": "E99D77B0C99C48DB2D4894B887EDA2F11D99D4A59624C3A4288AD343A7A4E3D6",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 4402,
+    "duration_seconds": 0.399274
+  },
+  {
+    "file": "wav/SOUNDS-031.wav",
+    "sha256": "E5607FF46CF1577464D58F791550A7ECD02B872995D4DE4505259AC9D177EAAD",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 9569,
+    "duration_seconds": 0.867937
+  },
+  {
+    "file": "wav/SOUNDS-032.wav",
+    "sha256": "F41F783479D5EA4657BADC948DEEF98769E315AB0E6E7795E6EE8B9B3A54BD23",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 10548,
+    "duration_seconds": 0.956735
+  },
+  {
+    "file": "wav/SOUNDS-033.wav",
+    "sha256": "4DF5C0F3406A83F4C0BD75A7B5F0703320B87C51BA0471C9CDAE1608010A1426",
+    "channels": 1,
+    "sample_width_bits": 8,
+    "sample_rate": 11025,
+    "frame_count": 6257,
+    "duration_seconds": 0.567528
+  }
+]

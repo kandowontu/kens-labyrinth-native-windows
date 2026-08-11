@@ -1,0 +1,35 @@
+	LAB3D/SDL FAQ
+	=============
+
+Q: Why does LAB3D/SDL crash immediately after starting on my Windows 95/98
+machine with a page fault in "OPENGL32.DLL" (and possibly "KERNEL32.DLL")?
+A: You are probably running Microsoft's slow, old and buggy software OpenGL
+implementation. Install display drivers with OpenGL support; your graphics
+card or chipset manufacturer should provide them (e.g. through their web
+site). Alternatively, use the software renderer.
+
+Q: Why does LAB3D/SDL run slowly on my machine?
+A: There are several possible reasons for this. In OpenGL mode, if you don't
+have a 3D accelerator, LAB3D/SDL will run very slowly. Similarly, if your
+system's OpenGL implementation is not accelerated, LAB3D/SDL will be unable to
+make use of 3D acceleration; updating your display drivers may fix
+this. Finally, you may be running LAB3D/SDL at an unnecessarily high graphics
+resolution; lower it to something like 800x600. Switching to software
+rendering will probably help if your OpenGL implementation is
+unaccelerated. In software mode, LAB3D/SDL will be a bit slower if it can't
+switch to 8 bit colour mode (256 colours). This is a common problem under
+Unix.
+
+Q: Why doesn't LAB3D/SDL have a fast software renderer like the original Ken's
+Labyrinth?
+A: It has now! That said, the OpenGL version works much better on almost any
+post-2005 PC.
+
+Q: Why doesn't LAB3D/SDL support Direct3D?
+A: Practically every PC that can run Vista or later decently has good enough
+OpenGL support, so rewriting the graphics code again doesn't seem worth it.
+The software renderer was practically obsolete before I finished it.
+
+Q: Why doesn't LAB3D/SDL have an automap like Doom, Blake Stone or Descent?
+A: Because Ken's Labyrinth doesn't have an automap. Besides, you're supposed
+to get lost in labyrinths.

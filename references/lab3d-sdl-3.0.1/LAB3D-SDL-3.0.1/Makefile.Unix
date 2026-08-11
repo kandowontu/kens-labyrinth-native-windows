@@ -1,0 +1,18 @@
+PLATFORM_OBJS=
+LINKER_FLAGS=`sdl-config --libs` -lGL -lGLU -lm
+EXE=ken
+INSTALLEXE=install -c
+INSTALLDATA=install -c -m 644
+BASEDIR=/usr/local
+DATADIR=$(BASEDIR)/share/LAB3D
+BINDIR=$(BASEDIR)/bin
+DOCS=readme.txt run.txt comments.txt faq.txt
+DATA=ksmmidi.txt ken.bmp
+
+include Makefile.common
+
+install:
+	mkdir -p -m 755 $(DESTDIR)$(DATADIR)
+	mkdir -p -m 755 $(DESTDIR)$(BINDIR)
+	$(INSTALLEXE) $(EXE) $(DESTDIR)$(BINDIR)
+	$(INSTALLDATA) $(DATA) $(DESTDIR)$(DATADIR)

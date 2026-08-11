@@ -1,0 +1,89 @@
+	LAB3D/SDL Installation
+	======================
+
+	Hardware requirements
+	---------------------
+
+LAB3D/SDL requires a machine capable of running Windows or a Unix-like OS
+(e.g. Linux) and the Simple DirectMedia Layer.
+
+Recommended system:
+
+- Pentium II or equivalent CPU.
+- NVIDIA Riva TNT or better graphics accelerator (with OpenGL drivers).
+- 101-key PC keyboard or similar.
+
+Optional features:
+
+- 16-bit sound card.
+- MIDI sound.
+- Two-button mouse or better.
+- Joystick.
+
+	Software requirements
+	---------------------
+
+Operating system:	Windows 95/98/Me/XP, Linux, Solaris, BSD, ...
+Libraries:		OpenGL 1.2, GLU 1.3, SDL 1.2. Slightly older versions
+			of GLU may work.
+Compiler:		GCC 3.3 or later recommended. Other compilers may
+			require Makefile changes, but should work.
+Other utilities:	Makefiles require GNU Make (or compatible) and sh
+			(or compatible, e.g. bash) or Microsoft nmake.
+Data files:		Ken's Labyrinth v2.1 (Epic Megagames registered),
+			Ken's Labyrinth v2.0 (Epic Megagames shareware),
+			Ken's Labyrinth v1.1 (Advanced Systems registered) or
+			Ken's Labyrinth v1.0 (Advanced Systems shareware).
+
+	Compiling (Unix with OSS support)
+	---------------------------------
+
+Run "make" in the source directory.
+
+	Compiling (Windows, GCC)
+	------------------------
+
+Run "make -f Makefile.Win32" in the source directory. MinGW 3.1.0 is
+recommended for Windows use. You can download MinGW at: http://www.mingw.org/
+
+	Compiling (Windows, Microsoft)
+	------------------------------
+
+Run "nmake /f Makefile.MS" in the source directory from a command prompt with
+the proper settings for compilation. The supplied Microsoft makefile assumes
+that you have Microsoft Visual C++ Toolkit 2003, Microsoft .NET Framework SDK
+2.0 and Microsoft Platform SDK for Windows XP SP2 (all of which can be
+downloaded from Microsoft's web site at the time of writing) installed in the
+default installation directories and SDL 1.2.8 installed in C:\SDL-1.2.8. The
+.NET Framework SDK command prompt is suitable for compiling LAB3D/SDL. If your
+installation paths differ, edit Makefile.MS before compiling. Microsoft's web
+site is at: http://www.microsoft.com/
+
+Note that this target is unmaintained as of LAB3D/SDL 3.0.
+
+	Compiling (Unix without OSS support)
+	------------------------------------
+
+Run "make -f Makefile.NoMIDI" in the source directory. Note that General MIDI
+music is not available if you do this (not much of a loss).
+
+	Installation (not applicable to full download)
+	----------------------------------------------
+
+Place the executable file ("ken" in Unix, "ken.exe" in Windows), "ksmmidi.txt"
+(if you want to use General MIDI music) and "ken.bmp" in the same directory as
+your copy of Ken's Labyrinth. You may give the executable file a different
+name if you like. Windows users should not change the extension of the
+executable.
+
+	Setup
+	-----
+
+Before running the game, it may be a good idea to check the settings by
+running the setup routine. If you have a script or batch file named "setup" or
+"setup.bat", you can use this to start the setup routine. Otherwise, run the
+main program with command-line parameter "-setup".
+
+The setup routine is automatically run if no configuration file is found, so
+you can force setup to run the next time you start LAB3D/SDL by deleting
+the settings file ("settings.ini").

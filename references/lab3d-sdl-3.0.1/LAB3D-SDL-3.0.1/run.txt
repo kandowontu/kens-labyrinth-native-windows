@@ -1,0 +1,138 @@
+	LAB3D/SDL Usage
+	===============
+
+Users of binary packages are provided with scripts "setup" (Linux) and
+"setup.bat" (Windows) to run the setup. Alternatively, the "-setup" flag
+may be used as described below.
+
+Run the executable file, making sure that the current directory is the
+directory in which the data files are residing.
+
+Command-line parameters (these override settings chosen in setup):
+
+-setup			Run setup.
+-res <w> <h> <x> <y>	Use <w>x<h> resolution, simulating <x>x<y> 2D screen.
+			Note that while w and h are integers, x and y can be
+			any floating point numbers >= than 320x200.
+-asp <w> <h>		Override aspect correction; <w> and <h> multiply the
+			width and height of the 3D viewport; both are
+			floating point numbers greater than 0.1.
+-win			Run in a window.
+-fullscreen		Run in fullscreen mode.
+-nearest		No display filtering.
+-trilinear		Trilinear display filtering.
+-nomusic		Disable music.
+-gmmusic		General MIDI music.
+-admusic		Adlib emulation music.
+-nosound		Disable sound effects.
+-sound			Enable sound effects.
+-debug			Extended graphics debug output. Only for
+			troubleshooting purposes.
+
+To activate cheat codes, the last parameter must be either "snausty" (normal
+cheat mode) or "cheaton" (cheat codes use [LSHIFT]-[LCTRL] instead of both
+shift keys). Note that cheaters never prosper.
+
+Unrecognised options are ignored.
+
+	Description of options
+	----------------------
+
+Input/Set keys
+--------------
+
+The "Input" option allows you to choose the input devices to use. You may
+choose to use a mouse and/or a joystick (the primary joystick is used). The
+keys can be set using the "Set keys" option.
+
+Resolution/Display type
+-----------------------
+
+The "Resolution" option determines the size in pixels of the game window if
+you are using a windowed display type.
+
+If you are using fullscreen display, the resolution also determines the
+resolution of the screen mode used. Specifically, the screen mode chosen is
+the lowest-resolution screen mode that has at least the selected
+resolution. In other words, if you choose a resolution from the "Fullscreen
+resolutions" list, LAB3D/SDL will switch the screen to that resolution when
+you run LAB3D/SDL. If you choose a custom resolution, LAB3D/SDL will select
+the closest possible resolution, leaving a black border around the game view.
+
+Decreasing screen resolution improves performance at the expense of graphics
+quality.
+
+Filtering/Renderer
+------------------
+
+Choosing the correct renderer is quite important. If you have 3D accelerated
+OpenGL (which usually depends on your graphics drivers), the OpenGL renderer
+will draw high quality graphics with optional trilinear filtering (which
+improves graphics quality greatly). However, if you do not have 3D accelerated
+OpenGL, choosing the OpenGL renderer will cause LAB3D/SDL to run very slowly
+and/or crash (especially under Windows 98, which has a buggy software OpenGL
+driver).
+
+The software renderer does not support filtering (the setting is ignored), and
+is slower than 3D accelerated OpenGL, but runs fine without 3D
+acceleration. Use this if you experience problems with OpenGL. Also note that
+the software renderer runs in 8 bit colour mode (256 colours). If your display
+does not support 8 bit colour or LAB3D/SDL is unable to switch colour depth,
+the game will run very slowly.
+
+Music/Effects/Sound channels/Music channels
+-------------------------------------------
+
+LAB3D can play music using Adlib emulation (which sounds just like Ken
+intended) or General MIDI (which never seems to sound alike on two different
+sound cards). The only real reason to use General MIDI music is that it uses
+less processing power.
+
+You can play sound effects and music in mono and stereo. Note that the music
+was written in mono; it is converted to stereo by randomly panning instruments
+(which is the right way to play the music in stereo, because Ken says so).
+
+Cheats
+------
+
+You can cheat in LAB3D/SDL by pressing various key combinations. In the
+original Ken's Labyrinth, these combinations all contained both Shift keys. If
+you have trouble getting these combinations to work, you can choose to use the
+left Shift and Ctrl keys instead.
+
+Sound block size
+----------------
+
+Decreasing the sound block size decreases sound latency, but increases the
+chances of sound glitches. Increase sound block size if you experience
+crackling sound, gaps in sound playback or similar problems. Decrease sound
+block size if you experience delays between events and the corresponding
+sounds.
+
+Texture colour depth
+--------------------
+
+The colour depth used by textures in LAB3D/SDL can be changed. Set this to 32
+bit for the best display quality. Settings this to 16 bits may improve
+performance and decrease memory use. The driver default setting is usually
+fastest.
+
+View
+----
+
+Ken's Labyrinth was originally written to run on a 4:3 screen at 320x200
+or 360x240 resolution. The view settings let you choose how LAB3D/SDL adapts
+Ken's Labyrinth to your display.
+
+The aspect ratio of your display can be taken into account in two different
+ways. "4:3 view" assumes that your display has a 4:3 aspect ratio. You should
+choose this if you are running in fullscreen mode on a 4:3 display and use
+screen resolutions with nonsquare pixels (such as 320x200). "Square pixels"
+assumes that your display has square pixels. Use this for widescreen displays
+and windows.
+
+When scaling the 2D graphics of Ken's Labyrinth to your screen resolution, you
+can either choose to scale them to fill the screen with the 360x240 graphics
+of Ken's Labyrinth ("Fill screen") or scale them up by the largest integer
+factor that fits on screen ("Integer scale"). Integer scale looks better if
+you are not using filtering.
