@@ -99,6 +99,7 @@ void createshortcut(void) {
 static int inputdevice=1,resolutionnumber=12800720,nearest=1;
 static int music=1,sound=1,fullscr=0,cheat=0,channel=1,musicchannel=1;
 static int soundblock=0,timing=0,texturedepth=1,scaling=2,renderer=0;
+int mousemode=0;
 
 static char keynames[numcontrolkeys][30]={
     "Move FORWARD",
@@ -126,7 +127,9 @@ static char keynames[numcontrolkeys][30]={
     "MUSIC VOLUME DOWN",
     "MUSIC VOLUME UP",
     "GAMMA DOWN",
-    "GAMMA UP"
+    "GAMMA UP",
+    "STRAFE LEFT",
+    "STRAFE RIGHT"
 };
 
 static int newdefaultkey[numcontrolkeys]={
@@ -155,7 +158,9 @@ static int newdefaultkey[numcontrolkeys]={
     SDLK_F7,
     SDLK_F8,
     SDLK_F9,
-    SDLK_F10
+    SDLK_F10,
+    SDLK_q,
+    SDLK_e
 };
 
 static void resetcontrolkeys(void)
@@ -573,34 +578,39 @@ static void drawcontrolpage(int page)
 {
     int i, action, start;
 
-    start=page*13;
-    drawmenu(360,240,menu);
+    start=page*14;
+    drawmenu(360,256,menu);
     if (page==0)
 	strcpy(textbuf,"Controls 1/2 - Movement and actions");
     else
 	strcpy(textbuf,"Controls 2/2 - System controls");
     textprint(180-(strlen(textbuf)<<2),7,112);
 
-    for(i=0;i<13;i++) {
+    for(i=0;i<14;i++) {
 	action=start+i;
 	strcpy(textbuf,keynames[action]);
-	textprint(31,25+12*i,lab3dversion?32:34);
+        textprint(31,22+12*i,lab3dversion?32:34);
 	strncpy(textbuf,SDL_GetKeyName(newkeydefs[action]),12);
 	textbuf[12]=0;
-	textprint(245,25+12*i,112);
+        textprint(245,22+12*i,112);
     }
 
+    if (page==1) {
+	strcpy(textbuf,"Mouse mode: ");
+	strcat(textbuf,mousemode ? "MOVE" : "LOOK");
+        textprint(31,190,48);
+    }
     if (page==0)
 	strcpy(textbuf,"Next page: System controls");
     else
 	strcpy(textbuf,"Previous page: Movement/actions");
-    textprint(31,181,48);
+    textprint(31,page==1?202:190,48);
     strcpy(textbuf,"Reset all controls to defaults");
-    textprint(31,193,48);
+    textprint(31,page==1?214:202,48);
     strcpy(textbuf,"Return to main menu");
-    textprint(31,205,32);
+    textprint(31,page==1?226:214,32);
     strcpy(textbuf,"Enter remaps. Escape returns.");
-    textprint(180-(strlen(textbuf)<<2),222,48);
+    textprint(180-(strlen(textbuf)<<2),228,48);
     finalisemenu();
 }
 
@@ -639,31 +649,40 @@ static int capturecontrolkey(int action)
 
 void controlsmenu(void)
 {
-    int page=0, selection=0, choice, action, sk, quitmenu=0;
+    int page=0, selection=0, choice, action, sk, quitmenu=0, maxselection;
 
     clearcontrolkeystate();
     while(!quitmenu) {
 	drawcontrolpage(page);
-	choice=getselection(-12,3,selection,16);
+	maxselection=(page==1)?18:17;
+	choice=getselection(-12,0,selection,maxselection);
 	if (choice<0) {
 	    quitmenu=1;
 	    continue;
 	}
 	selection=choice;
-	if (choice<13) {
-	    action=page*13+choice;
+	if (choice<14) {
+	    action=page*14+choice;
 	    sk=capturecontrolkey(action);
 	    if (sk>=0) {
+		int other;
+		for (other=0;other<numcontrolkeys;other++)
+		    if ((other!=action) && (newkeydefs[other]==sk))
+			newkeydefs[other]=SDLK_UNKNOWN;
 		newkeydefs[action]=sk;
 		savesettings();
 	    }
 	    clearcontrolkeystate();
 	}
-	else if (choice==13) {
+	else if ((page==1) && (choice==14)) {
+	    mousemode=!mousemode;
+	    savesettings();
+	}
+	else if ((page==0 && choice==14) || (page==1 && choice==15)) {
 	    page=1-page;
 	    selection=0;
 	}
-	else if (choice==14) {
+	else if ((page==0 && choice==15) || (page==1 && choice==16)) {
 	    resetcontrolkeys();
 	    savesettings();
 	    selection=0;
@@ -1000,13 +1019,20 @@ void loadsettings(void) {
 
     if (i) i=fscanf(file,"%d\n",&renderer);
 
-    if (i) {
+	if (i) {
 	char marker[32];
 	int version;
 	if ((fscanf(file,"%31s %d\n",marker,&version)==2) &&
 	    (strcmp(marker,"extended-controls")==0) && (version==1)) {
 	    for(i=numkeys;i<numcontrolkeys;i++)
 		if (fscanf(file,"%d\n",newkeydefs+i)!=1) break;
+	}
+	if (i==numcontrolkeys) {
+	    char mousemarker[32];
+	    int mouseversion;
+	    if ((fscanf(file,"%31s %d\n",mousemarker,&mouseversion)==2) &&
+		(strcmp(mousemarker,"mouse-mode")==0) && (mouseversion==1))
+		fscanf(file,"%d\n",&mousemode);
 	}
     }
 
@@ -1043,6 +1069,7 @@ void savesettings(void) {
     fprintf(file,"extended-controls 1\n");
     for(i=numkeys;i<numcontrolkeys;i++)
 	fprintf(file,"%d\n",newkeydefs[i]);
+	 fprintf(file,"mouse-mode 1\n%d\n",mousemode);
 
     fclose(file);
 }

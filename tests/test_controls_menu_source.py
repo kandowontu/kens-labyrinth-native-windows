@@ -22,7 +22,7 @@ class ControlsMenuSourceTests(unittest.TestCase):
 
     def test_expanded_menus_keep_selectors_inside_their_frames(self) -> None:
         self.assertIn("drawmenu(192,168,menu)", self.subs)
-        self.assertIn("getselection(-12,3,selection,16)", self.setup)
+        self.assertIn("getselection(-12,0,selection,maxselection)", self.setup)
 
     def test_scaled_hud_has_no_solid_separator_band(self) -> None:
         statusbar = self.subs[self.subs.index("void statusbaralldraw()") :]
@@ -30,10 +30,10 @@ class ControlsMenuSourceTests(unittest.TestCase):
         self.assertIn("screenbuffer[i+240*screenbufferwidth]=0xff", statusbar)
 
     def test_all_keyboard_actions_are_exposed(self) -> None:
-        self.assertIn("#define numcontrolkeys 26", self.header)
+        self.assertIn("#define numcontrolkeys 28", self.header)
         self.assertIn("keynames[numcontrolkeys]", self.setup)
         self.assertIn("newdefaultkey[numcontrolkeys]", self.setup)
-        self.assertIn("action=page*13+choice", self.setup)
+        self.assertIn("action=page*14+choice", self.setup)
 
     def test_fixed_system_keys_now_use_bindings(self) -> None:
         actions = (
@@ -56,6 +56,15 @@ class ControlsMenuSourceTests(unittest.TestCase):
         self.assertIn("for(i=0;i<numkeys;i++)", self.setup)
         self.assertIn("for(i=numkeys;i<numcontrolkeys;i++)", self.setup)
         self.assertIn("savesettings();", self.setup)
+
+    def test_mouse_mode_and_dedicated_strafe_bindings_exist(self) -> None:
+        self.assertIn('"STRAFE LEFT"', self.setup)
+        self.assertIn('"STRAFE RIGHT"', self.setup)
+        self.assertIn('"Mouse mode: "', self.setup)
+        self.assertIn("mousemode=!mousemode", self.setup)
+
+    def test_rebinding_clears_the_previous_key_owner(self) -> None:
+        self.assertIn("newkeydefs[other]=SDLK_UNKNOWN", self.setup)
 
     def test_any_sdl_keyboard_key_can_be_captured(self) -> None:
         capture = self.setup[self.setup.index("static int capturecontrolkey") :]

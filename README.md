@@ -1,5 +1,7 @@
 # Ken's Labyrinth native Windows port
 
+Current release: **1.1**
+
 This workspace preserves and analyzes the installed registered **Ken's
 Labyrinth v2.1** DOS release, expands its assets into common formats, and builds
 a native 64-bit Windows executable. The port is based on the author-recommended

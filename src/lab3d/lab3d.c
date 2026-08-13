@@ -2,6 +2,11 @@
 #include "lab3d.h"
 #include "adlibemu.h"
 #include "math.h"
+#ifdef WIN32
+#include "SDL_syswm.h"
+#endif
+
+int mousecapture=0;
 
 unsigned char slotable[3][16] =
 {
@@ -37,6 +42,42 @@ static K_UINT16 clamp_noclip_position(K_INT32 position)
 	position = 64511;
     return (K_UINT16)position;
 }
+
+#ifdef WIN32
+static void confine_mouse_to_game_window(int confine)
+{
+    SDL_SysWMinfo info;
+    RECT client;
+    POINT top_left, bottom_right;
+
+    SDL_VERSION(&info.version);
+    if (!SDL_GetWMInfo(&info) || info.window == NULL)
+	return;
+    if (!confine || GetForegroundWindow() != info.window) {
+	mousecapture=0;
+	ClipCursor(NULL);
+	return;
+    }
+    if (!GetClientRect(info.window, &client))
+	return;
+    top_left.x = client.left;
+    top_left.y = client.top;
+    bottom_right.x = client.right;
+    bottom_right.y = client.bottom;
+    if (!ClientToScreen(info.window, &top_left) ||
+	!ClientToScreen(info.window, &bottom_right))
+	return;
+    client.left = top_left.x;
+    client.top = top_left.y;
+    client.right = bottom_right.x;
+    client.bottom = bottom_right.y;
+    if (!mousecapture)
+	SetCursorPos((client.left+client.right)/2,
+		     (client.top+client.bottom)/2);
+    ClipCursor(&client);
+    mousecapture=1;
+}
+#endif
 
 int main(int argc,char **argv)
 {
@@ -189,9 +230,15 @@ int main(int argc,char **argv)
 
     /* Main game loop starts here... */
 
+#ifdef WIN32
+    confine_mouse_to_game_window(1);
+#endif
     won = 0;
     while (quitgame == 0)
     {
+	#ifdef WIN32
+	confine_mouse_to_game_window(1);
+	#endif
 	PollInputs();
 	if (newkeystatus[newkeydefs[CONTROL_CHEAT_MENU]] > 0)
 	    cheat_menu_requested = 1;
@@ -1616,7 +1663,7 @@ int main(int argc,char **argv)
 	}
 	if ((moustat == 0) || (joystat == 0))
 	{
-	    if ((mousx < -2) || (mousx > 2))
+	    if ((mousemode == 0) && ((mousx < -2) || (mousx > 2)))
 	    {
 		if (mousx < -24)
 		    mousx = -24;
@@ -1627,6 +1674,12 @@ int main(int argc,char **argv)
 		    mxvel = -32-angvel;
 		if (mxvel+angvel > 32)
 		    mxvel = 32-angvel;
+	    }
+	    else if (mousemode != 0)
+	    {
+		svel = mousx;
+		if (svel < -maxvel) svel = -maxvel;
+		if (svel > maxvel) svel = maxvel;
 	    }
 	    else
 	    {
@@ -1643,6 +1696,16 @@ int main(int argc,char **argv)
 			mxvel = 0;
 		}
 	    }
+	}
+	if (newkeystatus[newkeydefs[CONTROL_STRAFE_LEFT]] > 0)
+	{
+	    svel += (clockspd<<2);
+	    if (svel > maxvel) svel = maxvel;
+	}
+	if (newkeystatus[newkeydefs[CONTROL_STRAFE_RIGHT]] > 0)
+	{
+	    svel -= (clockspd<<2);
+	    if (svel < -maxvel) svel = -maxvel;
 	}
 	ang = (ang+2048+(((angvel+mxvel)*clockspd)>>3))&2047;
 	if (compass > 0)
@@ -2318,7 +2381,7 @@ int main(int argc,char **argv)
 	    if (myvel < 0)
 		myvel = 0;
 	}
-	if (mousy != 0)
+	if ((mousemode != 0) && (mousy != 0))
 	{
 	    myvel = -(mousy<<3);
 	    if (myvel < -300)
@@ -3311,9 +3374,15 @@ int main(int argc,char **argv)
 	{
 	    if (ototclock > 1)
 	    {
+		#ifdef WIN32
+		confine_mouse_to_game_window(0);
+		#endif
 		picrot(posx,posy,posz,ang);
 		gfxSwapBuffers();
 		j = mainmenu();
+		#ifdef WIN32
+		confine_mouse_to_game_window(1);
+		#endif
 		picrot(posx,posy,posz,ang);
 		if (j != 9)
 		{
