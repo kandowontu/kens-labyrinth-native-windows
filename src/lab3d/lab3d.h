@@ -75,7 +75,7 @@ typedef Sint16 K_INT16;
 #define numwalls 448
 #define numoptions 4
 #define numkeys 18
-#define numcontrolkeys 26
+#define numcontrolkeys 28
 #define CONTROL_CHEAT_MENU 18
 #define CONTROL_SCREENSHOT 19
 #define CONTROL_SOUND_DOWN 20
@@ -84,6 +84,8 @@ typedef Sint16 K_INT16;
 #define CONTROL_MUSIC_UP 23
 #define CONTROL_GAMMA_DOWN 24
 #define CONTROL_GAMMA_UP 25
+#define CONTROL_STRAFE_LEFT 26
+#define CONTROL_STRAFE_RIGHT 27
 #define initialwalls 0
 #define gifbuflen 4096
 
@@ -569,6 +571,8 @@ double angcan(double angle);
 
 SDL_mutex *soundmutex,*timermutex;
 EXTERN int newkeydefs[numcontrolkeys],newkeystatus[SDLKEYS];
+EXTERN int mousemode;
+EXTERN int mousecapture;
 EXTERN int musicvolume,soundvolume;
 EXTERN int channels;
 K_INT16 ksaystereo(K_UINT16 filenum,K_UINT16 x,K_UINT16 y);

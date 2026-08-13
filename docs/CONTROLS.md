@@ -18,6 +18,7 @@ restores every action on both pages.
 | Move forward / backward | Up / Down |
 | Turn left / right | Left / Right |
 | Strafe modifier | Right Ctrl |
+| Strafe left / right | Q / E |
 | Stand high / low | A / Z |
 | Run | Left Shift |
 | Fire | Left Ctrl |
@@ -46,6 +47,10 @@ the normal Fire control with any of the three weapons.
 
 **Alt+Enter** toggles fullscreen mode globally. It is reserved as a window
 shortcut rather than a remappable gameplay action.
+
+The Controls screen includes **Mouse mode: LOOK/MOVE**. Look uses horizontal
+mouse motion to turn; Move uses it to strafe. Vertical mouse motion moves
+forward/back in both modes.
 
 Mouse fire and use remain available alongside their remappable keyboard
 bindings when mouse input is enabled.

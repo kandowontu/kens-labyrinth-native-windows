@@ -1,4 +1,7 @@
 #include "lab3d.h"
+#ifdef WIN32
+#include "SDL_syswm.h"
+#endif
 #include "adlibemu.h"
 #define _USE_MATH_DEFINES
 #include <math.h>
@@ -5298,7 +5301,36 @@ void PollInputs() {
 
 unsigned char readmouse(int *x, int *y) {
     int tx,ty;
-    unsigned char bstatus=SDL_GetRelativeMouseState(&tx, &ty);
+    unsigned char bstatus;
+#ifdef WIN32
+    if (mousecapture) {
+	SDL_SysWMinfo info;
+	RECT client;
+	POINT top_left, bottom_right, cursor;
+	SDL_VERSION(&info.version);
+	if (SDL_GetWMInfo(&info) && info.window != NULL &&
+	    GetClientRect(info.window, &client)) {
+	    top_left.x = client.left;
+	    top_left.y = client.top;
+	    bottom_right.x = client.right;
+	    bottom_right.y = client.bottom;
+	    if (ClientToScreen(info.window, &top_left) &&
+		ClientToScreen(info.window, &bottom_right) &&
+		GetCursorPos(&cursor)) {
+		int centerx=(top_left.x+bottom_right.x)/2;
+		int centery=(top_left.y+bottom_right.y)/2;
+		tx=cursor.x-centerx;
+		ty=cursor.y-centery;
+		SetCursorPos(centerx,centery);
+		if (x!=NULL) *x+=5*tx;
+		if (y!=NULL) *y+=5*ty;
+		bstatus=SDL_GetMouseState(NULL,NULL);
+		return ((bstatus&4)>>1)|(bstatus&1)|(bstatus&2)<<1;
+	    }
+	}
+    }
+#endif
+    bstatus=SDL_GetRelativeMouseState(&tx, &ty);
 
     /* Swap middle and right mouse buttons to match Microsoft style. */
 

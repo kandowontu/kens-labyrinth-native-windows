@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.24)
 
-project(KensLabyrinthNative VERSION 1.0.0 LANGUAGES C RC)
+project(KensLabyrinthNative VERSION 1.1.0 LANGUAGES C RC)
 
 if(NOT WIN32)
     message(FATAL_ERROR "This project currently targets native Windows builds.")
